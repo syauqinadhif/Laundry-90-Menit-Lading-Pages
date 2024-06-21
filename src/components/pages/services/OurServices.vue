@@ -1,7 +1,9 @@
 <template>
   <div class="py-32 flex flex-col items-center bg-white max-w-screen-xl mx-auto">
-    <h2 class="text-4xl font-vagrounded text-gray-800 mb-2">LAYANAN LAUNDRY KAMI</h2>
-    <div class="w-64 h-1 bg-yellow-400 mt-4 mb-12"></div>
+    <h2 class="text-2xl lg:text-4xl font-vagrounded text-gray-800 lg:mb-2">
+      LAYANAN LAUNDRY KAMI
+    </h2>
+    <div class="w-48 lg:w-64 h-1 bg-yellow-400 mt-4 mb-12"></div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8 lg:px-16">
       <div class="text-center">
         <div

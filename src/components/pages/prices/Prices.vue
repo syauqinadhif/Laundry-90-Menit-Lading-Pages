@@ -1,9 +1,11 @@
 <template>
   <div class="max-w-screen-xl mx-auto py-32 p-4">
-    <h1 class="text-center text-4xl font-bold mb-6 font-vagrounded text-gray-800">
+    <h1
+      class="text-center text-2xl lg:text-4xl font-bold mb-2 font-vagrounded text-gray-800"
+    >
       FULL SERVICES
     </h1>
-    <div class="w-48 h-1 bg-yellow-400 mt-4 mb-12 mx-auto"></div>
+    <div class="w-24 lg:w-48 h-1 bg-yellow-400 mt-4 mb-6 lg:mb-12 mx-auto"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="(service, index) in services"
@@ -58,10 +60,12 @@
         </button>
       </div>
     </div>
-    <h1 class="text-center text-4xl font-bold mt-16 mb-6 font-vagrounded text-gray-800">
+    <h1
+      class="text-center text-2xl lg:text-4xl font-bold mt-16 mb-2 font-vagrounded text-gray-800"
+    >
       SELF SERVICES
     </h1>
-    <div class="w-44 h-1 bg-yellow-400 mt-4 mb-12 mx-auto"></div>
+    <div class="w-24 lg:w-44 h-1 bg-yellow-400 mt-4 mb-6 lg:mb-12 mx-auto"></div>
     <div class="flex flex-col sm:flex-row justify-center gap-6 mt-6">
       <div
         v-for="(service, index) in selfServices"

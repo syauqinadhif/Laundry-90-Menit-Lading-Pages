@@ -9,9 +9,7 @@
       class="max-w-screen-xl h-screen mx-auto flex items-center gap-x-64 overflow-hidden"
     >
       <div class="relative">
-        <h1
-          class="mt-8 font-vagrounded text-darkgunmetal text-xl sm:text-5xl leading-loose"
-        >
+        <h1 class="mt-8 font-vagrounded text-darkgunmetal text-xl sm:text-5xl">
           Laundry Express Antar-Jemput Self Service, Kiloan dan Satuan.
         </h1>
         <p class="mt-2 text-base sm:text-lg text-darkgunmetal">
@@ -26,7 +24,6 @@
       </div>
       <img
         alt="Gambar Ilustrasi Hero"
-        :src="heroImg"
         class="relative w-96 pointer-events-none select-none"
       />
     </div>
