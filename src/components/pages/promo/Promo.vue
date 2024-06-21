@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 py-32 px-4 sm:px-6 lg:px-8">
+  <div class="bg-gray-100 py-28 md:py-32 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <h1 class="text-2xl lg:text-4xl font-vagrounded text-gray-800 text-center mb-12">
         PROMO KAMI

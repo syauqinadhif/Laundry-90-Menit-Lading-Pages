@@ -1,53 +1,52 @@
 <template>
-  <div class="py-32 max-w-screen-xl mx-auto">
+  <div class="pt-28 md:pt-32 pb-16 md:pb-32 max-w-screen-xl mx-auto">
     <div>
-      <h2 class="font-vagrounded font-black text-4xl text-center text-gray-800">
+      <h2
+        class="font-vagrounded font-black text-2xl md:text-4xl text-center text-gray-800"
+      >
         OUTLET KAMI
       </h2>
-      <div class="w-32 h-1 bg-yellow-400 mt-4 mb-12 mx-auto"></div>
+      <div class="w-16 sm:w-32 h-1 bg-yellow-400 mt-4 mb-2 sm:mb-12 mx-auto"></div>
     </div>
-    <div class="mt-16 space-y-12">
+    <div class="mx-4 sm:mx-0 mt-8 sm:mt-16 space-y-12">
       <div
         v-for="(outlet, i) in outlets"
         :key="i"
         :class="[
-          'w-3/4 flex rounded-2xl overflow-hidden drop-shadow-card3',
+          'w-full sm:w-3/4 flex-col sm:flex-row flex rounded-2xl overflow-hidden drop-shadow-card3',
           i % 2 !== 0 ? 'ml-auto flex-row-reverse' : '',
         ]"
       >
-        <div class="w-1/2 h-80 py-4 px-4 bg-antiflashwhite">
+        <div class="w-full sm:w-1/2 h-70 sm:h-80 py-4 px-4 bg-antiflashwhite">
           <div class="h-full">
             <img
               :alt="`Ilustrasi ${outlet.name}`"
               :src="outlet.image"
-              class="h-full rounded-xl"
+              class="h-64 w-full md:h-full rounded-xl"
             />
           </div>
         </div>
-        <div class="w-1 h-auto bg-orange-400 px-1"></div>
-        <div class="min-w-0 w-full py-12 px-10 bg-orange-200">
-          <p class="font-vagrounded text-3xl text-gray-800 mb-6">{{ outlet.name }}</p>
-          <!-- <p class="mt-2.5 text-lg text-darkgunmetal">Alamat : {{ outlet.address }}</p>
-          <p class="mt-2.5 text-lg text-darkgunmetal">
-            Telepon/WhatsApp : {{ outlet.phone }}
+        <div class="w-auto sm:w-1 h-1 sm:h-auto bg-orange-400 px-1"></div>
+        <div class="min-w-0 w-full py-4 md:py-12 px-6 md:px-10 bg-orange-200">
+          <p
+            class="font-vagrounded ml-1 text-left text-xl md:text-3xl text-gray-800 mb-4 md:mb-6"
+          >
+            {{ outlet.name }}
           </p>
-          <p class="mt-2.5 text-lg text-darkgunmetal">
-            Jam Operasional : {{ outlet.hours }}
-          </p> -->
           <ul class="space-y-3 text-gray-600 text-lg">
             <li class="flex space-x-2">
-              <i class="mt-1 fas fa-map-marker-alt text-orange-500 ml-1"></i>
-              <span>
+              <i class="sm:mt-1 fas fa-map-marker-alt text-orange-500 ml-1"></i>
+              <span class="text-sm md:text-base font-semibold">
                 {{ outlet.address }}
               </span>
             </li>
             <li class="flex items-center space-x-2">
               <i class="fas fa-phone-alt text-orange-500"></i>
-              <span>+62 823-2564-3594</span>
+              <span class="text-sm md:text-base font-semibold">+62 823-2564-3594</span>
             </li>
             <li class="flex items-center space-x-2">
               <i class="fas fa-clock text-orange-500"></i>
-              <span>{{ outlet.hours }}</span>
+              <span class="text-sm md:text-base font-semibold">{{ outlet.hours }}</span>
             </li>
           </ul>
         </div>

@@ -51,7 +51,7 @@
       <nav
         v-if="openMobileNav"
         :class="navClasses"
-        class="lg:hidden absolute right-0 mt-80 w-48 p-3 mx-auto rounded-lg text-center"
+        class="lg:hidden absolute right-4 mt-80 w-48 p-3 mx-auto rounded-lg text-center"
       >
         <ul role="list" class="w-full space-y-3">
           <li>

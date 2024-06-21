@@ -1,5 +1,5 @@
 <template>
-  <div class="py-32 flex flex-col items-center bg-white max-w-screen-xl mx-auto">
+  <div class="py-28 md:py-32 flex flex-col items-center bg-white max-w-screen-xl mx-auto">
     <h2 class="text-2xl lg:text-4xl font-vagrounded text-gray-800 lg:mb-2">
       LAYANAN LAUNDRY KAMI
     </h2>
