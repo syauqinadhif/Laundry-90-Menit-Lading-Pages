@@ -62,9 +62,10 @@
 
 <script>
 import reason1Img from "@/assets/images/mesin-cuci-canggih.jpg";
-import reason2Img from "@/assets/images/mesin-cuci-canggih.jpg";
-import reason3Img from "@/assets/images/mesin-cuci-canggih.jpg";
-import reason4Img from "@/assets/images/mesin-cuci-canggih.jpg";
+import reason2Img from "@/assets/images/wash-and-fold.jpg";
+import reason3Img from "@/assets/images/kiloan-reguler.jpg";
+import reason4Img from "@/assets/images/no-drama.jpg";
+import reason5Img from "@/assets/images/setrika.jpg";
 
 export default {
   name: "ReasonsSection",
@@ -96,7 +97,7 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         },
         {
-          img: reason4Img,
+          img: reason5Img,
           title: "Jaminan Setrika Anti Gosong",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
