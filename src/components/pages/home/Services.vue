@@ -1,6 +1,8 @@
 <template>
-  <div class="w-full bg-gray-100 flex flex-col items-center pt-16 pb-16">
-    <h2 class="text-4xl w-1/2 font-vagrounded text-gray-800 mb-4 text-center">
+  <div class="w-full bg-gray-100 flex flex-col items-center pt-8 md:pt-16 pb-16">
+    <h2
+      class="text-2xl md:text-4xl w-full md:w-1/2 font-vagrounded text-gray-800 mb-4 text-center"
+    >
       Kami Hadir Untuk Membuat
       <span class="text-orange-500">Pelanggan</span>
       Kami
@@ -9,7 +11,7 @@
       <span class="text-orange-500">Layanan</span>
       Kami.
     </h2>
-    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="service in services"
         :key="service.title"
@@ -41,7 +43,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import selfServices from "@/assets/images/self-service.jpg";
-import selfServicesIcon from "@/assets/images/self-service.jpg";
+import selfServicesIcon from "@/assets/images/self-service.png";
 import laundryKiloan from "@/assets/images/kiloan-reguler.jpg";
 import laundryKiloanIcon from "@/assets/images/laundry-kiloan.png";
 import laundrySatuan from "@/assets/images/satuan-premium.jpg";
@@ -66,7 +68,7 @@ export default defineComponent({
         {
           title: "Self Services",
           image: selfServices,
-          icon: "path_to_image3.jpg",
+          icon: selfServicesIcon,
         },
         {
           title: "Kiloan Reguler",
