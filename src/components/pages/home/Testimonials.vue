@@ -6,7 +6,7 @@
       <p class="text-orange-500 font-productsans font-semibold text-sm md:text-lg">
         Profile
       </p>
-      <h2 class="font-vagrounded text-2xl md:text-4xl text-richblack">
+      <h2 class="font-vagrounded font-black text-2xl md:text-4xl text-richblack">
         Laundry 90 Menit
       </h2>
       <p class="mt-2 md:mt-4 text-sm md:text-lg text-gunmetal font-productsans">

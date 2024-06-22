@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-gray-100 flex flex-col items-center pt-8 md:pt-16 pb-16">
     <h2
-      class="text-2xl md:text-4xl w-full md:w-1/2 font-vagrounded text-gray-800 mb-4 text-center"
+      class="text-2xl md:text-4xl w-full md:w-1/2 font-vagrounded font-black text-gray-800 mb-4 text-center"
     >
       Kami Hadir Untuk Membuat
       <span class="text-orange-500">Pelanggan</span>
@@ -31,7 +31,7 @@
               <h3 class="text-lg font-semibold text-gray-800">{{ service.title }}</h3>
             </div>
             <p class="text-orange-500 mt-2">
-              <a href="#" class="hover:underline">View Details →</a>
+              <a href="/layananKami" class="hover:underline">View Details →</a>
             </p>
           </div>
         </div>

@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-cultured2 pt-16 md:pt-24 pb-14">
+  <div class="bg-cultured2 pt-8 md:pt-24 pb-14">
     <div class="max-w-screen-xl mx-auto">
       <h3
-        class="font-mont font-black px-6 text-3xl sm:text-5xl text-left sm:text-center leading-tight"
+        class="w-5/6 md:w-full font-black px-6 text-2xl sm:text-5xl text-left md:text-center leading-tight"
       >
         <span class="text-gunmetal font-vagrounded">Mengapa</span>
         <span class="text-orange-500 font-vagrounded"> Laundry 90 Menit</span
@@ -12,101 +12,46 @@
         class="font-productsans mt-2 sm:mt-6 px-6 sm:px-32 md:px-44 lg:px-64 text-left sm:text-center text-gunmetal text-sm sm:text-lg"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        incididunt ut labore et dolore magna aliqua.
       </p>
-      <div class="mt-8 md:mt-16 px-6 space-y-8">
-        <div class="flex flex-col sm:flex-row items-center justify-between">
+      <div class="w-full mx-auto mt-8 md:mt-16 px-6 space-y-8">
+        <div
+          v-for="(reason, index) in reasons"
+          :key="index"
+          :class="
+            index % 2 === 0
+              ? 'flex flex-col sm:flex-row items-center justify-around'
+              : 'flex flex-wrap items-center justify-around'
+          "
+        >
           <img
-            alt="Gambar alasan pertama"
-            :src="reason1Img"
-            data-aos="fade-right"
+            :alt="'Gambar alasan ' + (index + 1)"
+            :src="reason.img"
+            :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
             data-aos-duration="1000"
-            class="pointer-events-none select-none h-80"
+            class="pointer-events-none select-none h-80 rounded-2xl"
+            :class="index % 2 === 0 ? '' : 'order-1 sm:order-2'"
           />
-          <div data-aos="fade-left" data-aos-duration="1000" class="max-w-xl">
-            <p class="text-orange-500 text-3xl sm:text-4xl">
-              <span class="font-productsans font-black">#</span
-              ><span class="font-mont font-black">1</span>
-              <span class="font-mont font-black">Laundry</span>
-              <span class="font-mont">90Menit</span>
-            </p>
-            <p
-              class="mt-2.5 font-mont font-black text-2xl sm:text-4xl text-gunmetal leading-tight"
-            >
-              Reasons Heading
-            </p>
-            <p class="mt-1.5 font-productsans sm:text-lg text-gunmetal">
-              <!-- Bengkel Inovasi berpengalaman menangani berbagai proyek dari berbagai bidang
-              <i>engineering</i> mulai dari <i>embedded system</i>,
-              <i>microcontroller</i>, Internet of Things, pengembangan web, pengembangan
-              aplikasi, dll. -->
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-            </p>
-          </div>
-        </div>
-        <div class="flex flex-wrap items-center justify-between">
           <div
-            data-aos="fade-right"
+            :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
             data-aos-duration="1000"
-            class="max-w-xl order-2 sm:order-1"
+            :class="
+              index % 2 === 0 ? 'mt-4 max-w-xl' : 'mt-4 max-w-xl order-2 sm:order-1'
+            "
           >
-            <p class="text-orange-500 text-3xl sm:text-4xl">
-              <span class="font-productsans font-black">#</span
-              ><span class="font-mont font-black">2</span>
-              <span class="font-mont font-black">Laundry</span>
-              <span class="font-mont">90Menit</span>
+            <p class="text-orange-500 text-xl sm:text-3xl">
+              <span class="font-vagrounded font-black">#</span
+              ><span class="font-vagrounded font-black">{{ index + 1 }}</span>
+              <span class="font-vagrounded font-black">Laundry</span>
+              <span class="font-vagrounded font-light">90Menit</span>
             </p>
             <p
-              class="mt-2.5 font-mont font-black text-2xl sm:text-4xl text-gunmetal leading-tight"
+              class="mt-0 md:mt-2.5 font-vagrounded font-black text-2xl sm:text-4xl text-gunmetal leading-tight"
             >
-              Reasons Heading
+              {{ reason.title }}
             </p>
             <p class="mt-1.5 font-productsans sm:text-lg text-gunmetal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-              <!-- Bengkel Inovasi memiliki teknisi yang berpengalaman di berbagai bidang
-              <i>engineering</i>. -->
-            </p>
-          </div>
-          <img
-            alt="Gambar alasan kedua"
-            :src="reason2Img"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            class="pointer-events-none select-none order-1 sm:order-2 h-80"
-          />
-        </div>
-        <div class="flex flex-col sm:flex-row items-center justify-between">
-          <img
-            alt="Gambar alasan ketiga"
-            :src="reason3Img"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            class="pointer-events-none select-none h-80"
-          />
-          <div data-aos="fade-left" data-aos-duration="1000" class="max-w-xl">
-            <p class="text-orange-500 text-3xl sm:text-4xl">
-              <span class="font-productsans font-black">#</span
-              ><span class="font-mont font-black">3</span>
-              <span class="font-mont font-black">Laundry</span>
-              <span class="font-mont">90Menit</span>
-            </p>
-            <p
-              class="mt-2.5 font-mont font-black text-2xl sm:text-4xl text-gunmetal leading-tight"
-            >
-              Reasons Heading
-            </p>
-            <p class="mt-1.5 font-productsans sm:text-lg text-gunmetal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
+              {{ reason.description }}
             </p>
           </div>
         </div>
@@ -116,17 +61,47 @@
 </template>
 
 <script>
-import reason1Img from "@/assets/images/wash-and-fold.jpg";
-import reason2Img from "@/assets/images/wash-and-fold.jpg";
-import reason3Img from "@/assets/images/wash-and-fold.jpg";
+import reason1Img from "@/assets/images/mesin-cuci-canggih.jpg";
+import reason2Img from "@/assets/images/mesin-cuci-canggih.jpg";
+import reason3Img from "@/assets/images/mesin-cuci-canggih.jpg";
+import reason4Img from "@/assets/images/mesin-cuci-canggih.jpg";
 
 export default {
   name: "ReasonsSection",
   data() {
     return {
-      reason1Img,
-      reason2Img,
-      reason3Img,
+      reasons: [
+        {
+          img: reason1Img,
+          title: "Menggunakan Mesin Cuci Modern dan Canggih",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+          img: reason2Img,
+          title: "Muat Lebih Banyak",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+          img: reason3Img,
+          title: "Tidak Mencampur Pakaian",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+          img: reason4Img,
+          title: "No Drama!",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+        {
+          img: reason4Img,
+          title: "Jaminan Setrika Anti Gosong",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        },
+      ],
     };
   },
 };

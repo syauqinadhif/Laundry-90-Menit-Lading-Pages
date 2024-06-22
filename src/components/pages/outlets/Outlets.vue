@@ -29,11 +29,11 @@
         <div class="w-auto sm:w-1 h-1 sm:h-auto bg-orange-400 px-1"></div>
         <div class="min-w-0 w-full py-4 md:py-12 px-6 md:px-10 bg-orange-200">
           <p
-            class="font-vagrounded ml-1 text-left text-xl md:text-3xl text-gray-800 mb-4 md:mb-6"
+            class="font-vagrounded font-black ml-1 text-left text-xl md:text-3xl text-gray-800 mb-4 md:mb-6"
           >
             {{ outlet.name }}
           </p>
-          <ul class="space-y-3 text-gray-600 text-lg">
+          <ul class="space-y-3 text-gray-800 text-lg">
             <li class="flex space-x-2">
               <i class="sm:mt-1 fas fa-map-marker-alt text-orange-500 ml-1"></i>
               <span class="text-sm md:text-base font-semibold">

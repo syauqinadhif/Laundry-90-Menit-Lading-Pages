@@ -1,9 +1,13 @@
 <template>
   <div class="bg-gray-100 py-28 md:py-32 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
-      <h1 class="text-2xl lg:text-4xl font-vagrounded text-gray-800 text-center mb-12">
+      <h1
+        class="text-2xl lg:text-4xl font-vagrounded font-black text-gray-800 text-center mb-4"
+      >
         PROMO KAMI
       </h1>
+      <div class="mx-auto w-24 lg:w-44 h-1 bg-yellow-400 mb-12"></div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h2 class="text-xl font-semibold text-orange-500 mb-2">

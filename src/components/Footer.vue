@@ -11,13 +11,15 @@
             alt="QuickFold Logo"
             class="h-10 w-10"
           /> -->
-          <span class="text-2xl font-vagrounded text-gray-800">Laundry 90 Menit</span>
+          <span class="text-2xl font-vagrounded font-black text-gray-800"
+            >Laundry 90 Menit</span
+          >
         </div>
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-gray-800">
           Laundry Express Antar-Jemput Self Service, Kiloan dan Satuan.
         </p>
         <div class="mt-12">
-          <span class="font-vagrounded text-gray-800">Follow Us</span>
+          <span class="font-vagrounded font-black text-gray-800">Follow Us</span>
           <div class="flex space-x-4 mt-2">
             <a href="#" class="text-orange-500">
               <i class="fab fa-facebook-f"></i>
@@ -37,8 +39,8 @@
 
       <!-- Company Links -->
       <div class="flex-1">
-        <h3 class="text-xl font-vagrounded text-gray-800 mb-4">Company</h3>
-        <ul class="space-y-2 text-gray-600">
+        <h3 class="text-xl font-vagrounded font-black text-gray-800 mb-4">Company</h3>
+        <ul class="space-y-2 text-gray-800">
           <li><a href="#" class="hover:underline">Home</a></li>
           <li><a href="#" class="hover:underline">Layanan Kami</a></li>
           <li><a href="#" class="hover:underline">Promo</a></li>
@@ -60,8 +62,10 @@
 
       <!-- Contact Info -->
       <div class="flex-1">
-        <h3 class="text-xl font-vagrounded text-gray-800 mb-4">Contact Info</h3>
-        <ul class="space-y-3 text-gray-600">
+        <h3 class="text-xl font-vagrounded font-black text-gray-800 mb-4">
+          Contact Info
+        </h3>
+        <ul class="space-y-3 text-gray-800">
           <li class="flex items-center space-x-2">
             <i class="fas fa-phone-alt text-orange-500"></i>
             <span>+62 823-2564-3594</span>
@@ -80,7 +84,7 @@
         </ul>
       </div>
     </div>
-    <div class="mt-8 text-center text-gray-600">
+    <div class="mt-8 text-center text-gray-800">
       <p>Copyright © 2024 Laundry90Menit. All rights reserved</p>
     </div>
   </div>

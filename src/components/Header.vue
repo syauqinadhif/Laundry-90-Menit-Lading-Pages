@@ -31,7 +31,7 @@
         </nav>
       </div>
       <a
-        href="/"
+        href="https://wa.me/+6282325643594"
         class="hidden lg:block relative z-10 px-8 py-2 bg-orange-500 font-medium text-white text-sm rounded-3xl"
       >
         Hubungi Kami
@@ -102,7 +102,7 @@
           <li>
             <a
               @click.stop="closeMobileNav"
-              href="https://lynk.id/bengkelinovasi"
+              href="https://wa.me/+6282325643594"
               target="_blank"
               class="block w-full p-2 font-medium text-darkgunmetal bg-orange-500 text-white text-sm rounded-lg"
             >

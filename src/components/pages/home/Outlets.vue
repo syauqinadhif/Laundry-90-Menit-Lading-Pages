@@ -5,7 +5,7 @@
     <div class="max-w-screen-xl mx-auto">
       <div class="flex justify-between items-center text-center mb-8">
         <h2
-          class="text-2xl md:text-3xl text-center md:text-left font-vagrounded text-gray-800"
+          class="text-2xl md:text-3xl text-center md:text-left font-vagrounded font-black text-gray-800"
         >
           Kunjungi<span class="text-orange-500"> Outlet</span> Kami
         </h2>
@@ -21,7 +21,7 @@
           <div class="mt-4 mx-4 text-left">
             <div class="flex justify-between text-sm text-gray-600 mb-2">
               <!-- <span>{{ news.date }}</span> -->
-              <h1 class="text-softred font-bold">{{ news.outletNumber }}</h1>
+              <h1 class="text-orange-500 font-bold">{{ news.outletNumber }}</h1>
             </div>
             <!-- <div class="text-orange-500 text-xs mb-2">Details</div> -->
           </div>
@@ -31,12 +31,14 @@
           </div>
           <div class="p-4">
             <a
-              href="/"
-              class="relative w-8 h-12 z-10 py-1 px-3 bg-white hover:bg-softred border-softred border-2 font-medium text-softred hover:text-white text-xs rounded-3xl"
+              href="/outlet"
+              class="relative w-8 h-12 z-10 py-1 px-3 bg-white hover:bg-orange-500 border-orange-500 border-2 font-medium text-orange-500 hover:text-white text-xs rounded-3xl"
             >
               Details
             </a>
-            <h3 class="pt-4 text-lg font-vagrounded text-gray-800">{{ news.title }}</h3>
+            <h3 class="pt-4 text-lg font-vagrounded font-black text-gray-800">
+              {{ news.title }}
+            </h3>
           </div>
         </div>
       </div>

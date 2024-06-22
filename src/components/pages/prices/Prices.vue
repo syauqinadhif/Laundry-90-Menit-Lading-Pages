@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-xl mx-auto py-28 md:py-32 p-4">
     <h1
-      class="text-center text-2xl lg:text-4xl font-bold mb-2 font-vagrounded text-gray-800"
+      class="text-center text-2xl lg:text-4xl mb-2 font-vagrounded font-black text-gray-800"
     >
       FULL SERVICES
     </h1>
@@ -12,7 +12,9 @@
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6"
       >
-        <h2 class="text-xl font-vagrounded text-orange-500 mb-4">{{ service.name }}</h2>
+        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+          {{ service.name }}
+        </h2>
         <ul class="mb-16">
           <li
             v-for="(price, subIndex) in service.prices"
@@ -26,11 +28,12 @@
             <span class="font-productsans">{{ price.cost }}</span>
           </li>
         </ul>
-        <button
+        <a
+          href="https://wa.me/+6282325643594"
           class="absolute bottom-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
         >
           Order
-        </button>
+        </a>
       </div>
     </div>
     <div class="flex flex-col sm:flex-row justify-center gap-6 mt-6">
@@ -39,7 +42,9 @@
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full max-w-sm"
       >
-        <h2 class="text-xl font-vagrounded text-orange-500 mb-4">{{ service.name }}</h2>
+        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+          {{ service.name }}
+        </h2>
         <ul class="mb-16">
           <li
             v-for="(price, subIndex) in service.prices"
@@ -72,7 +77,9 @@
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full h-fit max-w-sm"
       >
-        <h2 class="text-xl font-vagrounded text-orange-500 mb-4">{{ service.name }}</h2>
+        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+          {{ service.name }}
+        </h2>
         <ul class="mb-16">
           <li
             v-for="(price, subIndex) in service.prices"

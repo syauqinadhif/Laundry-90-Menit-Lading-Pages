@@ -9,14 +9,14 @@
       class="max-w-screen-xl h-screen mx-auto flex items-center gap-x-64 overflow-hidden"
     >
       <div class="relative">
-        <h1 class="mt-8 font-vagrounded text-darkgunmetal text-xl sm:text-5xl">
+        <h1 class="mt-8 font-vagrounded font-black text-darkgunmetal text-xl sm:text-5xl">
           Laundry Express Antar-Jemput Self Service, Kiloan dan Satuan.
         </h1>
         <p class="mt-2 text-base sm:text-lg text-darkgunmetal">
           Solusi Cepat Untuk Bantu Nyuciin Cucian Kotor Kamu!
         </p>
         <a
-          href="/"
+          href="https://wa.me/+6282325643594"
           class="w-fit h-12 bg-orange-500 mt-8 px-8 flex items-center justify-center text-center font-medium text-white text-sm rounded-3xl"
         >
           Laundry Sekarang!
