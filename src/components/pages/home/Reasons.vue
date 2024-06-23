@@ -20,8 +20,8 @@
           :key="index"
           :class="
             index % 2 === 0
-              ? 'flex flex-col sm:flex-row items-center justify-around'
-              : 'flex flex-wrap items-center justify-around'
+              ? 'flex flex-col sm:flex-row items-center justify-around max-w-full overflow-hidden '
+              : 'flex flex-wrap items-center justify-around max-w-full overflow-hidden'
           "
         >
           <img
@@ -60,7 +60,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import reason1Img from "@/assets/images/mesin-cuci-canggih.jpg";
 import reason2Img from "@/assets/images/wash-and-fold.jpg";
 import reason3Img from "@/assets/images/kiloan-reguler.jpg";
