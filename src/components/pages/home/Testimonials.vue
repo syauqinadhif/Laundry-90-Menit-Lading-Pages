@@ -22,7 +22,7 @@
         data-aos="zoom-in"
         data-aos-duration="1000"
         src="@/assets/videos/laundry-90-mnt.mkv"
-        alt="Video tentang Togo Binongko"
+        alt="Video tentang Laundry 90 Menit"
       ></video>
     </div>
   </div>
@@ -34,7 +34,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default defineComponent({
-  name: "TogoBinongkoSection",
+  name: "ProfileSection",
   setup() {
     onMounted(() => {
       AOS.init();
