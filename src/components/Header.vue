@@ -78,7 +78,7 @@
               href="/prices"
               class="block w-full font-medium text-sm text-darkgunmetal"
             >
-              Prices
+              Daftar Harga
             </a>
           </li>
           <li>

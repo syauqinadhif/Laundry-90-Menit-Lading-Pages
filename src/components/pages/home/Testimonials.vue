@@ -10,9 +10,11 @@
         Laundry 90 Menit
       </h2>
       <p class="mt-2 md:mt-4 text-sm md:text-lg text-gunmetal font-productsans">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Selamat datang di Laundry 90 Menit! Nikmati pengalaman nge-laundry dengan mesin
+        cuci modern yang lebih higienis dan praktis. Kami siap melayani Anda dengan
+        layanan antar jemput khusus full service, serta menyediakan ruang tunggu yang
+        nyaman bagi Anda yang memilih layanan self service. Datang dan buktikan kualitas
+        layanan Laundry 90 Menit ya!
       </p>
     </div>
     <div class="mt-8 w-3/4 md:w-1/2 pr-8">

@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 import { RouterView } from "vue-router";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import WhatsappCta from "./components/WhatsappCta.vue";
 
 // Reactive reference to store scroll position
 const scrollY = ref(0);
@@ -25,6 +26,7 @@ onUnmounted(() => {
 <template>
   <Header :scrollY="scrollY" />
   <RouterView />
+  <WhatsappCta />
   <Footer />
 </template>
 

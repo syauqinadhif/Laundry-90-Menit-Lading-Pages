@@ -42,7 +42,7 @@
             </li>
             <li class="flex items-center space-x-2">
               <i class="fas fa-phone-alt text-orange-500"></i>
-              <span class="text-sm md:text-base font-semibold">+62 823-2564-3594</span>
+              <span class="text-sm md:text-base font-semibold">{{ outlet.phone }}</span>
             </li>
             <li class="flex items-center space-x-2">
               <i class="fas fa-clock text-orange-500"></i>

@@ -1,14 +1,14 @@
 <template>
-  <div class="h-dvh">
+  <div class="h-dvh relative">
     <img
       alt="Gambar latar bagian hero"
       :src="heroCoverImg"
-      class="absolute -z-50 w-full h-dvh object-cover"
+      class="absolute -z-50 w-full h-full object-cover"
     />
     <div
-      class="max-w-screen-xl h-screen mx-auto flex flex-col sm:flex-row items-center gap-x-12 overflow-hidden"
+      class="max-w-screen-xl h-full mx-auto flex flex-col sm:flex-row items-center gap-x-12 overflow-hidden"
     >
-      <div class="relative mx-4 md:mx-8">
+      <div class="mx-4 md:mx-8 md:w-1/2 z-10">
         <h1
           class="mt-32 md:mt-24 font-vagrounded font-black text-gray-800 text-3xl leading-tight sm:text-5xl sm:leading-tight"
         >
@@ -27,11 +27,13 @@
           Laundry Sekarang!
         </a>
       </div>
-      <img
-        alt="Gambar Ilustrasi Hero"
-        :src="heroImg"
-        class="relative md:mt-16 w-80 sm:w-96 md:w-full pointer-events-none select-none"
-      />
+      <div class="w-1/2">
+        <img
+          alt="Gambar Ilustrasi Hero"
+          :src="heroImg"
+          class="absolute bottom-0 right-2 sm:right-16 sm:w-4/6 pointer-events-none select-none"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -50,3 +52,10 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+/* Tambahkan padding-bottom agar gambar tidak menutupi konten lain */
+.relative.w-full.md\:w-1\/2.flex.justify-end.items-end {
+  padding-bottom: 0;
+}
+</style>
