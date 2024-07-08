@@ -6,7 +6,7 @@
       class="absolute -z-50 w-full h-full object-cover"
     />
     <div
-      class="max-w-screen-xl h-full mx-auto flex flex-col sm:flex-row items-center gap-x-12 overflow-hidden"
+      class="max-w-screen-xl h-full mx-auto flex flex-col md:flex-row items-center gap-x-4 gap-y-12 overflow-hidden"
     >
       <div class="mx-4 md:mx-8 md:w-1/2 z-10">
         <h1
@@ -27,11 +27,11 @@
           Laundry Sekarang!
         </a>
       </div>
-      <div class="w-1/2">
+      <div class="w-1/2 mx-8">
         <img
           alt="Gambar Ilustrasi Hero"
           :src="heroImg"
-          class="absolute bottom-0 right-2 sm:right-16 sm:w-4/6 pointer-events-none select-none"
+          class="absolute bottom-0 right-2 sm:right-16 w- sm:w-1/4 max-h-[50%] md:max-h-[100%] pointer-events-none select-none"
         />
       </div>
     </div>

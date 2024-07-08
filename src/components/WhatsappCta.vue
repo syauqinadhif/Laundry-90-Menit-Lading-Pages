@@ -19,27 +19,54 @@
     <!-- Popup -->
     <div
       v-if="showPopup"
-      class="fixed bottom-16 right-4 bg-white rounded-lg shadow-lg w-72 p-4"
+      class="fixed bottom-16 mb-4 right-4 rounded-xl bg-white shadow-lg w-100"
     >
-      <div class="flex items-center bg-green-500 text-white p-2 rounded-t-lg">
-        <img
+      <div class="flex items-center bg-green-500 rounded-t-xl text-white w-full h-12">
+        <!-- <img
           src="@/assets/images/whatsapp-icon.png"
           alt="WhatsApp"
           class="w-6 h-6 mr-2"
-        />
-        <span>Ingin memulai percakapan?</span>
+        /> -->
+        <span class="text-left ml-4">Ingin memulai percakapan?</span>
       </div>
       <div class="p-2 text-center border-b border-gray-200">
         Silakan tap logo <span class="font-bold">WhatsApp</span> dibawah ini
       </div>
-      <div class="p-2 text-center text-gray-500">
-        Pesan akan dibalas kurang dari 1 menit
-      </div>
-      <div class="flex items-center p-2 bg-gray-100 rounded-lg">
+      <div class="flex items-center p-2 bg-gray-100 rounded-lg mb-2">
         <img src="@/assets/images/whatsapp-icon.png" alt="CS" class="w-12 h-12 mr-2" />
         <div>
-          <div class="font-bold">CS Falisha Laundry</div>
-          <div class="text-sm text-gray-500">Jagonya Laundry Ontime</div>
+          <div class="font-bold">CS Gito-Gati</div>
+          <!-- <div class="text-sm text-gray-500">Jagonya Laundry Ontime</div> -->
+        </div>
+        <button class="ml-auto text-green-500">
+          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-6 h-6" />
+        </button>
+      </div>
+      <div class="flex items-center p-2 bg-gray-100 rounded-lg mb-2">
+        <img src="@/assets/images/whatsapp-icon.png" alt="CS" class="w-12 h-12 mr-2" />
+        <div>
+          <div class="font-bold">CS Haryadi</div>
+          <!-- <div class="text-sm text-gray-500">Jagonya Laundry Ontime</div> -->
+        </div>
+        <button class="ml-auto text-green-500">
+          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-6 h-6" />
+        </button>
+      </div>
+      <div class="flex items-center p-2 bg-gray-100 rounded-lg mb-2">
+        <img src="@/assets/images/whatsapp-icon.png" alt="CS" class="w-12 h-12 mr-2" />
+        <div>
+          <div class="font-bold">CS Purwomartani</div>
+          <!-- <div class="text-sm text-gray-500">Jagonya Laundry Ontime</div> -->
+        </div>
+        <button class="ml-auto text-green-500">
+          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-6 h-6" />
+        </button>
+      </div>
+      <div class="flex items-center p-2 bg-gray-100 rounded-lg mb-2">
+        <img src="@/assets/images/whatsapp-icon.png" alt="CS" class="w-12 h-12 mr-2" />
+        <div>
+          <div class="font-bold">CS Sehari-hari UII</div>
+          <!-- <div class="text-sm text-gray-500">Jagonya Laundry Ontime</div> -->
         </div>
         <button class="ml-auto text-green-500">
           <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-6 h-6" />

@@ -11,8 +11,8 @@
       <p
         class="font-productsans mt-2 sm:mt-6 px-6 sm:px-32 md:px-44 lg:px-64 text-left sm:text-center text-gunmetal text-sm sm:text-lg"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.
+        Lima Alasan Mengapa Anda Harus Memilih Laundry 90 Menit Untuk Melayani Segala
+        Kebutuhan Laundry Anda.
       </p>
       <div class="w-full mx-auto mt-8 md:mt-16 px-6 space-y-8">
         <div
