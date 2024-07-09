@@ -5,7 +5,7 @@
     <div class="mt-8 w-3/4 md:w-1/2">
       <video
         controls
-        class="w-1/2 h-1/2 rounded-xl shadow-xl mx-auto"
+        class="w-11/12 md:w-1/2 md:h-1/2 rounded-xl shadow-xl mx-auto"
         data-aos="zoom-in"
         data-aos-duration="1000"
         src="@/assets/videos/profile-video.mp4"
