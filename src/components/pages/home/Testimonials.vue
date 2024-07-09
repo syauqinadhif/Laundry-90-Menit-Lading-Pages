@@ -1,7 +1,17 @@
 <template>
   <div
-    class="py-12 md:py-32 max-w-screen-xl mx-auto flex flex-col md:flex-row-reverse items-center"
+    class="py-12 md:py-32 max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row items-center"
   >
+    <div class="mt-8 w-3/4 md:w-1/2">
+      <video
+        controls
+        class="w-1/2 h-1/2 rounded-xl shadow-xl mx-auto"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        src="@/assets/videos/profile-video.mp4"
+        alt="Video tentang Laundry 90 Menit"
+      ></video>
+    </div>
     <div class="w-full pl-4 pr-4 md:mx-auto md:w-1/2 md:pl-8">
       <p class="text-orange-500 font-productsans font-semibold text-sm md:text-lg">
         Profile
@@ -16,16 +26,6 @@
         nyaman bagi Anda yang memilih layanan self service. Datang dan buktikan kualitas
         layanan Laundry 90 Menit ya!
       </p>
-    </div>
-    <div class="mt-8 w-3/4 md:w-1/2 pr-8">
-      <video
-        controls
-        class="w-full rounded-xl shadow-xl"
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-        src="@/assets/videos/laundry-90-mnt.mkv"
-        alt="Video tentang Laundry 90 Menit"
-      ></video>
     </div>
   </div>
 </template>

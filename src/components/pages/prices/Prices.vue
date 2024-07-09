@@ -160,10 +160,10 @@ export default defineComponent({
           ],
         },
         {
-          name: "Setrika/kg",
+          name: "Setrika Saja/kg",
           prices: [
-            { type: "1 Hari", cost: "Rp8.000" },
-            { type: "2 Hari", cost: "Rp7.000" },
+            { type: "1 Hari", cost: "Rp6.500" },
+            { type: "2 Hari", cost: "Rp4.500" },
           ],
         },
       ] as Service[],

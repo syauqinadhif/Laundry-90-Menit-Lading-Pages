@@ -30,9 +30,6 @@
             <a href="#" class="text-orange-500">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="#" class="text-orange-500">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
           </div>
         </div>
       </div>
@@ -41,11 +38,11 @@
       <div class="flex-1">
         <h3 class="text-xl font-vagrounded font-black text-gray-800 mb-4">Company</h3>
         <ul class="space-y-2 text-gray-800">
-          <li><a href="#" class="hover:underline">Home</a></li>
-          <li><a href="#" class="hover:underline">Layanan Kami</a></li>
-          <li><a href="#" class="hover:underline">Promo</a></li>
-          <li><a href="#" class="hover:underline">Daftar Harga</a></li>
-          <li><a href="#" class="hover:underline">Outlet</a></li>
+          <li><a href="/" class="hover:underline">Home</a></li>
+          <li><a href="/layananKami" class="hover:underline">Layanan Kami</a></li>
+          <li><a href="/promo" class="hover:underline">Promo</a></li>
+          <li><a href="/prices" class="hover:underline">Daftar Harga</a></li>
+          <li><a href="/outlet" class="hover:underline">Outlet</a></li>
         </ul>
       </div>
 

@@ -8,7 +8,7 @@
     <div
       class="max-w-screen-xl h-full mx-auto flex flex-col md:flex-row items-center gap-x-4 gap-y-12 overflow-hidden"
     >
-      <div class="mx-4 md:mx-8 md:w-1/2 z-10">
+      <div class="mx-4 md:mx-8 md:w-1/2">
         <h1
           class="mt-32 md:mt-24 font-vagrounded font-black text-gray-800 text-3xl leading-tight sm:text-5xl sm:leading-tight"
         >
@@ -31,7 +31,7 @@
         <img
           alt="Gambar Ilustrasi Hero"
           :src="heroImg"
-          class="absolute bottom-0 right-2 sm:right-16 w- sm:w-1/4 max-h-[50%] md:max-h-[100%] pointer-events-none select-none"
+          class="absolute bottom-0 right-2 sm:right-16 md:w-1/2 lg:w-1/2 xl:w-1/4 max-h-[50%] md:max-h-[100%] pointer-events-none select-none"
         />
       </div>
     </div>

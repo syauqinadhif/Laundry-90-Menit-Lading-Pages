@@ -76,31 +76,31 @@ export default {
           img: reason1Img,
           title: "Menggunakan Mesin Cuci Modern dan Canggih",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Di Laundry 90 Menit cucian kamu bakal jadi lebih bersih dan higienis",
         },
         {
           img: reason2Img,
           title: "Muat Lebih Banyak",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Mesin cuci dan pengering di Laundry 90 Menit muat lebih banyak hingga 10 kg.",
         },
         {
           img: reason3Img,
           title: "Tidak Mencampur Pakaian",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Jaminan pakaian tidak dicampur untuk cuci kiloan dan satuan, cucian kamu dijamin tidak dicampur dengan cucian pelanggan lain.",
         },
         {
           img: reason4Img,
           title: "No Drama!",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Laundry no drama! Jaminan pakaian kamu tidak akan hilang atau tertukar: Sebelum pakaian kamu dicuci, crew outlet kami akan mencatat semua pakaian satu-persatu. Setelah prosesnya selesai, crew outlet akan melakukan konfirmasi ke kamu lewat whatsapp ya",
         },
         {
           img: reason5Img,
           title: "Jaminan Setrika Anti Gosong",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Seluruh outlet laundry 90 menit sudah menggunakan setrika uap, jadi cucian kamu dijamin anti gosong dan berkerut",
         },
       ],
     };
