@@ -58,11 +58,12 @@
             <span>{{ price.cost }}</span>
           </li>
         </ul>
-        <button
+        <a
+          href="https://wa.me/+6282325643594"
           class="absolute bottom-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
         >
           Order
-        </button>
+        </a>
       </div>
     </div>
     <h1

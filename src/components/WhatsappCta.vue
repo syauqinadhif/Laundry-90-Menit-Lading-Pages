@@ -27,7 +27,7 @@
     <!-- Popup -->
     <div
       v-if="showPopup"
-      class="fixed bottom-16 mb-4 right-4 rounded-xl bg-white shadow-lg w-100"
+      class="fixed bottom-16 mb-4 right-4 rounded-xl bg-white shadow-lg w-72"
     >
       <div class="flex items-center bg-green-500 rounded-t-xl text-white w-full h-fit">
         <span class="mx-4 my-4 w-80 text-center"
@@ -36,46 +36,13 @@
       </div>
       <a
         class="flex items-center p-2 bg-gray-100 rounded-lg mt-2 mb-2 mx-2"
-        href="https://wa.me/+6282220943340"
+        href="https://wa.me/+6282325643594"
       >
         <button class="mx-2 text-green-500">
           <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />
         </button>
         <div>
-          <div class="text-left font-bold">CS Gito-Gati</div>
-        </div>
-      </a>
-      <a
-        class="flex items-center p-2 bg-gray-100 rounded-lg mb-2 mx-2"
-        href="https://wa.me/+6288221644519"
-      >
-        <button class="mx-2 text-green-500">
-          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />
-        </button>
-        <div>
-          <div class="font-bold">CS Haryadi</div>
-        </div>
-      </a>
-      <a
-        class="flex items-center p-2 bg-gray-100 rounded-lg mb-2 mx-2"
-        href="https://wa.me/+628158211190"
-      >
-        <button class="mx-2 text-green-500">
-          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />
-        </button>
-        <div>
-          <div class="font-bold">CS Purwomartani</div>
-        </div>
-      </a>
-      <a
-        class="flex items-center p-2 bg-gray-100 rounded-lg mb-2 mx-2"
-        href="https://wa.me/+6282331458745"
-      >
-        <button class="mx-2 text-green-500">
-          <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />
-        </button>
-        <div>
-          <div class="font-bold">CS Sehari-hari UII</div>
+          <div class="text-left font-bold">CS Laundry 90 Menit</div>
         </div>
       </a>
     </div>

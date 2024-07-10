@@ -78,7 +78,7 @@ export default defineComponent({
           name: "Laundry 90 Menit Purwomartani",
           address:
             "Sebelah Bank BPD, Jl. Purwomartani No.12, Bromonilan, Purwomartani, Kec. Kalasan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571",
-          phone: "0815-8211-190",
+          phone: "0815-6558-744",
           hours: "07:00 - 22:00",
           image: outletPurwomartani,
         },
