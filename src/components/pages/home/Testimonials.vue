@@ -2,7 +2,7 @@
   <div
     class="py-12 md:py-32 max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row items-center"
   >
-    <div class="mt-8 w-3/4 md:w-1/2">
+    <!-- <div class="mt-8 w-3/4 md:w-1/2">
       <video
         controls
         class="w-11/12 md:w-1/2 md:h-1/2 rounded-xl shadow-xl mx-auto"
@@ -11,8 +11,12 @@
         src="@/assets/videos/profile-video.mp4"
         alt="Video tentang Laundry 90 Menit"
       ></video>
-    </div>
-    <div class="w-full pl-4 pr-4 md:mx-auto md:w-1/2 md:pl-8">
+    </div> -->
+    <div
+      class="w-full pl-4 pr-4 md:mx-auto md:w-3/4 md:pl-8 text-center"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+    >
       <p class="text-orange-500 font-productsans font-semibold text-sm md:text-lg">
         Profile
       </p>
@@ -20,11 +24,12 @@
         Laundry 90 Menit
       </h2>
       <p class="mt-2 md:mt-4 text-sm md:text-lg text-gunmetal font-productsans">
-        Selamat datang di Laundry 90 Menit! Nikmati pengalaman nge-laundry dengan mesin
-        cuci modern yang lebih higienis dan praktis. Kami siap melayani Anda dengan
-        layanan antar jemput khusus full service, serta menyediakan ruang tunggu yang
-        nyaman bagi Anda yang memilih layanan self service. Datang dan buktikan kualitas
-        layanan Laundry 90 Menit ya!
+        Laundry 90 Menit adalah solusi laundry premium untuk kebutuhan Anda, menyediakan
+        layanan self-service, kiloan, dan satuan. Kami menghadirkan layanan express dengan
+        pilihan 12 jam, 6 jam, hingga 3 jam untuk memastikan pakaian Anda bersih secepat
+        mungkin. Kami juga menyediakan layanan antar-jemput ke seluruh wilayah Yogyakarta
+        dengan ongkos kirim yang terjangkau. Kapan pun dan di mana pun, Laundry 90 Menit
+        siap memberikan layanan terbaik untuk Anda!
       </p>
     </div>
   </div>

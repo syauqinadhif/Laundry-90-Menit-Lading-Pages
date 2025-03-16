@@ -10,7 +10,7 @@
           Kunjungi<span class="text-orange-500"> Outlet</span> Kami
         </h2>
       </div>
-      <div class="mt-6 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="mt-6 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
         <div
           v-for="news in newsList"
           :key="news.title"
@@ -52,6 +52,7 @@ import outletGitoGati from "@/assets/images/our-outlets-gitogati.jpeg";
 import outletHaryadi from "@/assets/images/our-outlets-haryadi.jpg";
 import outletPurwomartani from "@/assets/images/our-outlets-purwomartani.jpg";
 import outletUII from "@/assets/images/our-outlets-UII.jpg";
+import outletDamai from "@/assets/images/our-outlets-Damai.png";
 
 export default defineComponent({
   data() {
@@ -80,6 +81,12 @@ export default defineComponent({
           readTime: "6 Min Read",
           title: "Outlet Laundry Sehari-hari UII",
           image: outletUII,
+        },
+        {
+          outletNumber: "#5 Outlet",
+          readTime: "6 Min Read",
+          title: "Outlet Laundry 90 Menit Damai",
+          image: outletDamai,
         },
         // Add more news items here
       ],

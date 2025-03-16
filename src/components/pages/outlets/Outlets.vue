@@ -61,6 +61,7 @@ import outletGitoGati from "@/assets/images/our-outlets-gitogati.jpeg";
 import outletHaryadi from "@/assets/images/our-outlets-haryadi.jpg";
 import outletPurwomartani from "@/assets/images/our-outlets-purwomartani.jpg";
 import outletUII from "@/assets/images/our-outlets-UII.jpg";
+import outletDamai from "@/assets/images/our-outlets-Damai.png";
 
 export default defineComponent({
   data() {
@@ -97,6 +98,14 @@ export default defineComponent({
           phone: "0823-3145-8745",
           hours: "08:00 - 21:00",
           image: outletUII,
+        },
+        {
+          name: "Laundry 90 Menit Damai",
+          address:
+            "Jl. Damai No.5, Tambakan, Sinduharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581",
+          phone: "0823-3145-8745",
+          hours: "07:00 - 22:00",
+          image: outletDamai,
         },
       ],
     };

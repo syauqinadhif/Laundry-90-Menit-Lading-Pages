@@ -125,19 +125,17 @@ export default defineComponent({
         {
           name: "Cuci Setrika/kg",
           prices: [
-            { type: "1 Hari", cost: "Rp8.000" },
-            { type: "2 Hari", cost: "Rp7.000" },
-            { type: "12 Jam", cost: "Rp12.000" },
-            { type: "6 Jam", cost: "Rp15.000" },
+            { type: "1 Hari", cost: "Rp10.000" },
+            { type: "12 Jam", cost: "Rp14.000" },
+            { type: "6 Jam", cost: "Rp17.000" },
+            { type: "3 Jam", cost: "Rp27.000" },
           ],
         },
         {
           name: "Cuci Lipat/kg",
           prices: [
-            { type: "1 Hari", cost: "Rp5.000" },
-            { type: "12 Jam", cost: "Rp7.000" },
-            { type: "6 Jam", cost: "Rp10.000" },
-            { type: "3 Jam", cost: "Rp15.000" },
+            { type: "6 Jam", cost: "Rp11.000" },
+            { type: "3 Jam", cost: "Rp20.000" },
           ],
         },
         {
@@ -170,7 +168,7 @@ export default defineComponent({
       ] as Service[],
       selfServices: [
         {
-          name: "Outlet Gito-Gati dan Haryadi",
+          name: "Outlet Gito-Gati, Haryadi, Damai",
           prices: [
             { type: "Cuci Saja", cost: "Rp12.000" },
             { type: "Keringkan", cost: "Rp15.000" },
