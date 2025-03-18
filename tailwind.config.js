@@ -18,7 +18,8 @@ module.exports = {
         darkcornflowerblue: '#263e7c', // dark blue (primary)
         lavenderblue: '#ccdafc', // subtle blue (primary)
         aliceblue: '#eef8fc',
-        softgray: '#F9F9F9'
+        softgray: '#F9F9F9',
+        primaryblue: '#1EA7FF'
       }
     }
   },

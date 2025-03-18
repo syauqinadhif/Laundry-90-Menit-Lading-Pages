@@ -3,16 +3,16 @@
     <h1
       class="text-center text-2xl lg:text-4xl mb-2 font-vagrounded font-black text-gray-800"
     >
-      FULL SERVICES
+      LAYANAN KAMI
     </h1>
-    <div class="w-24 lg:w-48 h-1 bg-yellow-400 mt-4 mb-6 lg:mb-12 mx-auto"></div>
+    <div class="w-24 lg:w-48 h-1 bg-primaryblue mt-4 mb-6 lg:mb-12 mx-auto"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="(service, index) in services"
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6"
       >
-        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
           {{ service.name }}
         </h2>
         <ul class="mb-16">
@@ -22,7 +22,7 @@
             class="flex justify-between items-center mb-2"
           >
             <span class="flex items-center font-productsans">
-              <span class="w-2.5 h-2.5 bg-orange-500 rounded-full mr-2"></span>
+              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
               {{ price.type }}
             </span>
             <span class="font-productsans">{{ price.cost }}</span>
@@ -30,7 +30,7 @@
         </ul>
         <a
           href="https://wa.me/+6282325643594"
-          class="absolute bottom-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
+          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl"
         >
           Order
         </a>
@@ -42,7 +42,7 @@
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full max-w-sm"
       >
-        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
           {{ service.name }}
         </h2>
         <ul class="mb-16">
@@ -52,7 +52,7 @@
             class="flex justify-between items-center mb-2"
           >
             <span class="flex items-center">
-              <span class="w-2.5 h-2.5 bg-orange-500 rounded-full mr-2"></span>
+              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
               {{ price.type }}
             </span>
             <span>{{ price.cost }}</span>
@@ -60,13 +60,13 @@
         </ul>
         <a
           href="https://wa.me/+6282325643594"
-          class="absolute bottom-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
+          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
         >
           Order
         </a>
       </div>
     </div>
-    <h1
+    <!-- <h1
       class="text-center text-2xl lg:text-4xl font-bold mt-16 mb-2 font-vagrounded text-gray-800"
     >
       SELF SERVICES
@@ -78,7 +78,7 @@
         :key="index"
         class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full h-fit max-w-sm"
       >
-        <h2 class="text-xl font-vagrounded font-black text-orange-500 mb-4">
+        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
           {{ service.name }}
         </h2>
         <ul class="mb-16">
@@ -88,19 +88,19 @@
             class="flex justify-between items-center mb-2"
           >
             <span class="flex items-center">
-              <span class="w-2.5 h-2.5 bg-orange-500 rounded-full mr-2"></span>
+              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
               {{ price.type }}
             </span>
             <span>{{ price.cost }}</span>
           </li>
         </ul>
-        <!-- <button
-          class="absolute bottom-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
+        <button
+          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
         >
           Order
-        </button> -->
+        </button>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -125,16 +125,16 @@ export default defineComponent({
         {
           name: "Cuci Setrika/kg",
           prices: [
-            { type: "1 Hari", cost: "Rp10.000" },
+            { type: "1 Hari", cost: "Rp12.000" },
             { type: "12 Jam", cost: "Rp14.000" },
-            { type: "6 Jam", cost: "Rp17.000" },
-            { type: "3 Jam", cost: "Rp27.000" },
+            { type: "6 Jam", cost: "Rp20.000" },
+            { type: "3 Jam", cost: "Rp25.000" },
           ],
         },
         {
           name: "Cuci Lipat/kg",
           prices: [
-            { type: "6 Jam", cost: "Rp11.000" },
+            { type: "6 Jam", cost: "Rp14.000" },
             { type: "3 Jam", cost: "Rp20.000" },
           ],
         },

@@ -3,7 +3,7 @@
     <h2
       class="text-2xl md:text-4xl w-full md:w-1/2 font-vagrounded font-black text-gray-800 mb-4 text-center"
     >
-      Paket <span class="text-orange-500">Laundry</span>
+      Paket <span class="text-primaryblue">Laundry</span>
     </h2>
 
     <!-- Container Grid -->
@@ -15,7 +15,7 @@
         data-aos-duration="1000"
         data-aos="zoom-in"
       >
-        <h3 class="text-lg text-center font-bold text-orange-500 mb-2">
+        <h3 class="text-lg text-center font-bold text-primaryblue mb-2">
           {{ paket.nama }}
         </h3>
         <ul class="text-gray-700 mb-4 space-y-2">
@@ -43,7 +43,7 @@
         <div class="flex justify-end">
           <button
             @click="redirectToWhatsApp(paket.nama, paket.harga)"
-            class="bg-orange-500 text-white py-2 px-4 rounded-lg font-bold"
+            class="bg-primaryblue text-white py-2 px-4 rounded-lg font-bold"
           >
             {{ paket.harga }}
           </button>
@@ -69,7 +69,7 @@ export default defineComponent({
             "Pakaian Sudah di Setrika",
             "Satu Customer, Satu Mesin Cuci",
           ],
-          harga: "Rp. 10.000/kg",
+          harga: "Rp. 12.000/kg",
         },
         {
           nama: "Laundry Express 12 Jam",
@@ -89,7 +89,7 @@ export default defineComponent({
             "Pakaian Sudah di Setrika",
             "Satu Customer, Satu Mesin Cuci",
           ],
-          harga: "Rp. 17.000/kg",
+          harga: "Rp. 20.000/kg",
         },
         {
           nama: "Laundry Express 3 Jam",
@@ -99,7 +99,7 @@ export default defineComponent({
             "Pakaian Sudah di Setrika",
             "Satu Customer, Satu Mesin Cuci",
           ],
-          harga: "Rp. 27.000/kg",
+          harga: "Rp. 25.000/kg",
         },
       ],
     };

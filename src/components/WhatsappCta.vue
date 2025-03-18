@@ -42,7 +42,7 @@
           <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />
         </button>
         <div>
-          <div class="text-left font-bold">CS Laundry 90 Menit</div>
+          <div class="text-left font-bold">CS One Click Laundry</div>
         </div>
       </a>
     </div>

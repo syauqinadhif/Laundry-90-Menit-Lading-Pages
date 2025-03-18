@@ -5,13 +5,13 @@
         class="w-5/6 md:w-full font-black px-6 text-2xl sm:text-5xl text-left md:text-center leading-tight"
       >
         <span class="text-gunmetal font-vagrounded">Mengapa</span>
-        <span class="text-orange-500 font-vagrounded"> Laundry 90 Menit</span
+        <span class="text-primaryblue font-vagrounded"> One Click Laundry</span
         ><span class="text-gunmetal font-vagrounded"> ?</span>
       </h3>
       <p
         class="font-productsans mt-2 sm:mt-6 px-6 sm:px-32 md:px-44 lg:px-64 text-left sm:text-center text-gunmetal text-sm sm:text-lg"
       >
-        Lima Alasan Mengapa Anda Harus Memilih Laundry 90 Menit Untuk Melayani Segala
+        Lima Alasan Mengapa Anda Harus Memilih One Click Laundry Untuk Melayani Segala
         Kebutuhan Laundry Anda.
       </p>
       <div class="w-full mx-auto mt-8 md:mt-16 px-6 space-y-8">
@@ -29,7 +29,7 @@
             :src="reason.img"
             :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
             data-aos-duration="1000"
-            class="pointer-events-none select-none h-80 rounded-2xl"
+            class="pointer-events-none select-none h-80 w-100 rounded-2xl"
             :class="index % 2 === 0 ? '' : 'order-1 sm:order-2'"
           />
           <div
@@ -39,11 +39,11 @@
               index % 2 === 0 ? 'mt-4 max-w-xl' : 'mt-4 max-w-xl order-2 sm:order-1'
             "
           >
-            <p class="text-orange-500 text-xl sm:text-3xl">
-              <span class="font-vagrounded font-black">#</span
-              ><span class="font-vagrounded font-black">{{ index + 1 }}</span>
-              <span class="font-vagrounded font-black">Laundry</span>
-              <span class="font-vagrounded font-light">90Menit</span>
+            <p class="text-primaryblue text-xl sm:text-3xl">
+              <span class="font-vagrounded font-black">#</span>
+              <!-- <span class="font-vagrounded font-black">{{ index + 1 }}</span> -->
+              <span class="font-vagrounded font-black">OneClick</span>
+              <span class="font-vagrounded font-light">Laundry</span>
             </p>
             <p
               class="mt-0 md:mt-2.5 font-vagrounded font-black text-2xl sm:text-4xl text-gunmetal leading-tight"
@@ -61,11 +61,11 @@
 </template>
 
 <script lang="ts">
-import reason1Img from "@/assets/images/mesin-cuci-canggih.jpg";
-import reason2Img from "@/assets/images/wash-and-fold.jpg";
-import reason3Img from "@/assets/images/kiloan-reguler.jpg";
-import reason4Img from "@/assets/images/no-drama.jpg";
-import reason5Img from "@/assets/images/setrika.jpg";
+import reason1Img from "@/assets/images/Mesin cuci canggih dan modern.jpg";
+import reason2Img from "@/assets/images/Muat lebih  banyak.jpeg";
+import reason3Img from "@/assets/images/Tidak mencampur pakaian.jpeg";
+import reason4Img from "@/assets/images/No Drama.jpeg";
+import reason5Img from "@/assets/images/Setrika anti gosong.jpg";
 
 export default {
   name: "ReasonsSection",
@@ -76,13 +76,13 @@ export default {
           img: reason1Img,
           title: "Menggunakan Mesin Cuci Modern dan Canggih",
           description:
-            "Di Laundry 90 Menit cucian kamu bakal jadi lebih bersih dan higienis",
+            "Di One Click Laundry cucian kamu bakal jadi lebih bersih dan higienis",
         },
         {
           img: reason2Img,
           title: "Muat Lebih Banyak",
           description:
-            "Mesin cuci dan pengering di Laundry 90 Menit muat lebih banyak hingga 10 kg.",
+            "Mesin cuci dan pengering di One Click Laundry muat lebih banyak hingga 10 kg.",
         },
         {
           img: reason3Img,
@@ -100,7 +100,7 @@ export default {
           img: reason5Img,
           title: "Jaminan Setrika Anti Gosong",
           description:
-            "Seluruh outlet laundry 90 menit sudah menggunakan setrika uap, jadi cucian kamu dijamin anti gosong dan berkerut",
+            "Seluruh outlet One Click Laundry sudah menggunakan setrika uap, jadi cucian kamu dijamin anti gosong dan berkerut",
         },
       ],
     };

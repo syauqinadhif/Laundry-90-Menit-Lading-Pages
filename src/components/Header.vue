@@ -5,7 +5,7 @@
       :class="{ 'backdrop-blur-sm bg-white/75': scrollY > 10 }"
     >
       <a href="/" class="relative z-10">
-        <img alt="Logo Laundry 90 Menit" :src="logo" class="w-20 lg:w-28 select-none" />
+        <img alt="Logo One Click Laundry" :src="logo" class="w-20 select-none" />
       </a>
       <div class="hidden lg:flex relative items-center justify-between">
         <nav class="w-fit px-6 mx-auto">
@@ -25,14 +25,14 @@
               <a :href="'/promo'" :class="getNavClass('/promo')">Promo</a>
             </li>
             <li>
-              <a :href="'/outlet'" :class="getNavClass('/outlet')">Outlet</a>
+              <a :href="'/outlet'" :class="getNavClass('/outlet')">About Us</a>
             </li>
           </ul>
         </nav>
       </div>
       <a
         href="https://wa.me/+6282325643594"
-        class="hidden lg:block relative z-10 px-8 py-2 bg-orange-500 font-medium text-white text-sm rounded-3xl"
+        class="hidden lg:block relative z-10 px-8 py-2 bg-primaryblue font-medium text-white text-sm rounded-3xl"
       >
         Hubungi Kami
       </a>
@@ -44,7 +44,7 @@
           :class="buttonClasses"
           class="w-fit mx-auto h-full p-4 flex items-center rounded-full transition-colors duration-200"
         >
-          <GridOutline class="w-6 h-6 text-orange-500" />
+          <GridOutline class="w-6 h-6 text-primaryblue" />
         </button>
       </div>
       <!-- Mobile Nav Menu -->
@@ -104,7 +104,7 @@
               @click.stop="closeMobileNav"
               href="https://wa.me/+6282325643594"
               target="_blank"
-              class="block w-full p-2 font-medium text-darkgunmetal bg-orange-500 text-white text-sm rounded-lg"
+              class="block w-full p-2 font-medium text-darkgunmetal bg-primaryblue text-white text-sm rounded-lg"
             >
               Hubungi Kami
             </a>
@@ -118,7 +118,7 @@
 <script lang="ts">
 import { defineComponent, ref, computed } from "vue";
 import { useRoute } from "vue-router";
-import logo from "@/assets/images/logo.png";
+import logo from "@/assets/images/logo-2.png";
 import GridOutline from "@/components/icons/GridOutline.vue"; // Adjust the path as necessary
 
 export default defineComponent({
@@ -144,7 +144,7 @@ export default defineComponent({
 
     const getNavClass = (path: string) => {
       return route.path === path
-        ? "font-medium text-orange-500"
+        ? "font-medium text-primaryblue"
         : "font-medium text-darkgunmetal";
     };
 

@@ -3,11 +3,11 @@
     <h2 class="text-2xl lg:text-4xl font-vagrounded font-black text-gray-800 lg:mb-2">
       LAYANAN LAUNDRY KAMI
     </h2>
-    <div class="w-48 lg:w-64 h-1 bg-yellow-400 mt-4 mb-12"></div>
+    <div class="w-48 lg:w-64 h-1 bg-primaryblue mt-4 mb-12"></div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8 lg:px-16">
       <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-express.png"
@@ -16,7 +16,7 @@
           />
         </div>
         <h3 class="text-xl font-semibold text-gray-600 mb-2">
-          Laundry Express Antar Jemput
+          Laundry Express Antar 
         </h3>
         <p class="text-gray-600">
           Jasa laundry Express Antar Jemput, siap Antar Jemput wilayah Jogja Kota. Paket
@@ -26,7 +26,7 @@
       </div>
       <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-kiloan.png"
@@ -41,9 +41,9 @@
           biaya antar-jemput.
         </p>
       </div>
-      <div class="text-center">
+      <!-- <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-satuan.png"
@@ -59,7 +59,7 @@
       </div>
       <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-tas-dan-sepatu.png"
@@ -76,7 +76,7 @@
       </div>
       <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-baby-equipment.png"
@@ -92,10 +92,10 @@
           bantal / guling membantu Ayah dan Bunda dalam perawatan kebersihan untuk sang
           buah hati agar terhindar dari kotoran atau debu yang menempel.
         </p>
-      </div>
+      </div> -->
       <div class="text-center">
         <div
-          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-orange-500"
+          class="flex justify-center items-center w-24 h-24 mb-4 mx-auto rounded-full border-4 border-primaryblue"
         >
           <img
             src="@/assets/images/laundry-chemical.png"

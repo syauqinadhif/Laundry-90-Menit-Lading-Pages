@@ -22,7 +22,7 @@ export default {
     Packet,
     // Services,
     Reasons,
-    Outlets,
+    // Outlets,
   },
 };
 </script>

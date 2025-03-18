@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="pt-28 md:pt-32 pb-16 md:pb-32 max-w-screen-xl mx-auto">
     <div>
       <h2
@@ -129,5 +129,55 @@ export default defineComponent({
 .drop-shadow-card3 {
   --tw-drop-shadow: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
   filter: var(--tw-drop-shadow);
+}
+</style> -->
+<template>
+  <div
+    class="max-w-screen-xl flex flex-col lg:flex-row max-w-7xl mx-auto pt-40 pb-40 px-6 space-y-8 lg:space-y-0 lg:space-x-8 font-vagrounded text-center lg:text-left">
+    <!-- Left Side Text -->
+    <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-4">
+      <h2 class="text-base font-vagrounded tracking-wider text-primaryblue uppercase mb-2">
+        ONE CLICK LAUNDRY
+      </h2>
+      <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
+        Laundry Express Antar-Jemput, Kiloan dan Satuan
+      </h1>
+      <p class="text-sm md:text-base text-gray-600 mb-4">
+        Kami siap membantu Anda dengan layanan laundry cepat, bersih, dan nyaman.
+        Hubungi kami untuk layanan terbaik di daerah Anda.
+      </p>
+      <div class="mt-6 text-gray-700">
+        <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+          <img src="@/assets/images/email-2.png" alt="Email" class="w-6 h-6 text-orange-500 mr-3" />
+          <a class="text-sm break-all">
+            one1.click.laundry@gmail.com
+          </a>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
+          <img src="@/assets/images/phone-2.png" alt="Phone" class="w-6 h-6 text-orange-500 mr-3" />
+          <a class="text-sm">
+            082325643594
+          </a>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center sm:items-start">
+          <img src="@/assets/images/location-2.png" alt="Location" class="w-6 h-6 text-orange-500 mr-3" />
+          <span class="text-sm">
+            Jl. Gito Gati ruko No.1, Penen, Donoharjo, Ngaglik, Sleman, 55581
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({});
+</script>
+
+<style scoped>
+.font-productsans {
+  font-family: 'Product Sans', sans-serif;
 }
 </style>

@@ -7,7 +7,7 @@
         <h2
           class="text-2xl md:text-3xl text-center md:text-left font-vagrounded font-black text-gray-800"
         >
-          Kunjungi<span class="text-orange-500"> Outlet</span> Kami
+          Kunjungi<span class="text-primaryblue"> Outlet</span> Kami
         </h2>
       </div>
       <div class="mt-6 md:mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -21,9 +21,9 @@
           <div class="mt-4 mx-4 text-left">
             <div class="flex justify-between text-sm text-gray-600 mb-2">
               <!-- <span>{{ news.date }}</span> -->
-              <h1 class="text-orange-500 font-bold">{{ news.outletNumber }}</h1>
+              <h1 class="text-primaryblue font-bold">{{ news.outletNumber }}</h1>
             </div>
-            <!-- <div class="text-orange-500 text-xs mb-2">Details</div> -->
+            <!-- <div class="text-primaryblue text-xs mb-2">Details</div> -->
           </div>
 
           <div class="h-44 mx-4">
@@ -32,7 +32,7 @@
           <div class="p-4">
             <a
               href="/outlet"
-              class="relative w-8 h-12 z-10 py-1 px-3 bg-white hover:bg-orange-500 border-orange-500 border-2 font-medium text-orange-500 hover:text-white text-xs rounded-3xl"
+              class="relative w-8 h-12 z-10 py-1 px-3 bg-white hover:bg-primaryblue border-primaryblue border-2 font-medium text-primaryblue hover:text-white text-xs rounded-3xl"
             >
               Details
             </a>

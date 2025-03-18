@@ -6,24 +6,25 @@
       >
         PROMO KAMI
       </h1>
-      <div class="mx-auto w-24 lg:w-44 h-1 bg-yellow-400 mb-12"></div>
+      <div class="mx-auto w-24 lg:w-44 h-1 bg-primaryblue mb-12"></div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-[80%]">
         <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
-            Promo Cuci Bed Cover: Diskon 20%
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
+            Diskon Pengguna Aplikasi
           </h2>
-          <p class="text-gray-600 mb-4">Tidak ada batas waktu, khusus outlet Gito Gati</p>
+          <p class="text-gray-600 mb-4">User yang baru register pertama kali di aplikasi akan mendapatkan diskon 10% (1 user 1 kali)</p>
+          <p class="text-gray-600 mb-4">Tidak ada batas waktu</p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
-            Promo Membership: Cashback 30%
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
+            Promo Bulan Ramadhan dan Lebaran
           </h2>
-          <p class="text-gray-600 mb-4">Apabila top-up saldo minimal 200rb</p>
-          <p class="text-gray-600 mb-4">Tidak ada batas waktu, khusus outlet Gito Gati</p>
+          <p class="text-gray-600 mb-4">Dapatkan diskon hingga 15%, setiap pelanggan dapat mengklaim diskon hingga 3 kali</p>
+          <p class="text-gray-600 mb-4">Sampai dengan tanggal 5 April</p>
         </div>
-        <div class="relative bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
+        <!-- <div class="relative bg-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Promo Lain Cabang Haryadi
           </h2>
           <p class="text-gray-600 mb-16">
@@ -32,13 +33,13 @@
           </p>
           <a
             href="https://wa.me/+6282325643594"
-            class="absolute bottom-0 right-0 mb-6 mr-4 bg-orange-500 text-white py-2 px-3 rounded-xl hover:bg-orange-600"
+            class="absolute bottom-0 right-0 mb-6 mr-4 bg-primaryblue text-white py-2 px-3 rounded-xl hover:bg-orange-600"
           >
             Info Lebih Lanjut
           </a>
         </div>
         <div class="relative bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Promo Lain Cabang Purwomartani
           </h2>
           <p class="text-gray-600 mb-16">
@@ -47,13 +48,13 @@
           </p>
           <a
             href="https://wa.me/+6282325643594"
-            class="absolute bottom-0 right-0 mb-6 mr-4 bg-orange-500 text-white py-2 px-3 rounded-xl hover:bg-orange-600"
+            class="absolute bottom-0 right-0 mb-6 mr-4 bg-primaryblue text-white py-2 px-3 rounded-xl hover:bg-orange-600"
           >
             Info Lebih Lanjut
           </a>
         </div>
         <div class="relative bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Promo Lain Cabang Gito-Gati
           </h2>
           <p class="text-gray-600 mb-16">
@@ -62,13 +63,13 @@
           </p>
           <a
             href="https://wa.me/+6282325643594"
-            class="absolute bottom-0 right-0 mb-6 mr-4 bg-orange-500 text-white py-2 px-3 rounded-xl hover:bg-orange-600"
+            class="absolute bottom-0 right-0 mb-6 mr-4 bg-primaryblue text-white py-2 px-3 rounded-xl hover:bg-orange-600"
           >
             Info Lebih Lanjut
           </a>
         </div>
         <div class="relative bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-orange-500 mb-2">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Promo Lain Cabang UII
           </h2>
           <p class="text-gray-600 mb-16">
@@ -77,15 +78,15 @@
           </p>
           <a
             href="https://wa.me/+6282325643594"
-            class="absolute bottom-0 right-0 mb-6 mr-4 bg-orange-500 text-white py-2 px-3 rounded-xl hover:bg-orange-600"
+            class="absolute bottom-0 right-0 mb-6 mr-4 bg-primaryblue text-white py-2 px-3 rounded-xl hover:bg-orange-600"
           >
             Info Lebih Lanjut
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="mx-auto text-center mt-12 font-productsans">
         <h2>
-          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS Laundry 90
+          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Click Laundry
           Menit.
         </h2>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-orange-100 py-12">
+  <div class="w-full bg-blue-100 py-12">
     <div
       class="max-w-7xl mx-auto mb-12 px-4 flex flex-col lg:flex-row justify-between gap-x-16 items-start space-y-8 lg:space-y-0"
     >
@@ -12,26 +12,26 @@
             class="h-10 w-10"
           /> -->
           <span class="text-2xl font-vagrounded font-black text-gray-800"
-            >Laundry 90 Menit</span
+            >One Click Laundry</span
           >
         </div>
         <p class="mt-4 text-gray-800">
           Laundry Express Antar-Jemput Self Service, Kiloan dan Satuan.
         </p>
-        <div class="mt-12">
+        <!-- <div class="mt-12">
           <span class="font-vagrounded font-black text-gray-800">Follow Us</span>
           <div class="flex space-x-4 mt-2">
-            <a href="#" class="text-orange-500">
+            <a href="#" class="text-primaryblue">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <!-- <a href="#" class="text-blue-500">
+            <a href="#" class="text-blue-500">
               <i class="fab fa-x-twitter"></i>
-            </a> -->
-            <a href="#" class="text-orange-500">
+            </a>
+            <a href="#" class="text-primaryblue">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Company Links -->
@@ -64,15 +64,15 @@
         </h3>
         <ul class="space-y-3 text-gray-800">
           <li class="flex items-center space-x-2">
-            <i class="fas fa-phone-alt text-orange-500"></i>
-            <span>+62 823-2564-3594</span>
+            <i class="fas fa-phone-alt text-primaryblue"></i>
+            <span>082325643594</span>
           </li>
           <li class="flex items-center space-x-2">
-            <i class="fas fa-envelope text-orange-500"></i>
-            <span>laundry90menit@gmail.com</span>
+            <i class="fas fa-envelope text-primaryblue"></i>
+            <span>one1.click.laundry@gmail.com</span>
           </li>
           <li class="flex space-x-2">
-            <i class="mt-1 fas fa-map-marker-alt text-orange-500 ml-1"></i>
+            <i class="mt-1 fas fa-map-marker-alt text-primaryblue ml-1"></i>
             <span>
               Jl. Gito Gati ruko No.1, Penen, Donoharjo, Kec. Ngaglik, Kabupaten Sleman,
               Daerah Istimewa Yogyakarta 55581
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="mt-8 text-center text-gray-800">
-      <p>Copyright © 2024 Laundry90Menit. All rights reserved</p>
+      <p>Copyright © 2025 One Click Laundry. All rights reserved</p>
     </div>
   </div>
 </template>
