@@ -78,12 +78,12 @@ export default {
           description:
             "Di One Click Laundry cucian kamu bakal jadi lebih bersih dan higienis",
         },
-        {
-          img: reason2Img,
-          title: "Muat Lebih Banyak",
-          description:
-            "Mesin cuci dan pengering di One Click Laundry muat lebih banyak hingga 10 kg.",
-        },
+        // {
+        //   img: reason2Img,
+        //   title: "Muat Lebih Banyak",
+        //   description:
+        //     "Mesin cuci dan pengering di One Click Laundry muat lebih banyak hingga 10 kg.",
+        // },
         {
           img: reason3Img,
           title: "Tidak Mencampur Pakaian",

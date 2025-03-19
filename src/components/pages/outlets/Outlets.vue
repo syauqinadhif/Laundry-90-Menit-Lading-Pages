@@ -140,7 +140,7 @@ export default defineComponent({
         ONE CLICK LAUNDRY
       </h2>
       <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
-        Laundry Express Antar-Jemput, Kiloan dan Satuan
+        Laundry Express Antar-Jemput Seluruh Yogyakarta
       </h1>
       <p class="text-sm md:text-base text-gray-600 mb-4">
         Kami siap membantu Anda dengan layanan laundry cepat, bersih, dan nyaman.

@@ -139,32 +139,39 @@ export default defineComponent({
           ],
         },
         {
-          name: "Bed Cover",
-          prices: [
-            { type: "Ukuran Kecil", cost: "Rp20.000" },
-            { type: "Ukuran Sedang", cost: "Rp25.000" },
-            { type: "Ukuran Besar", cost: "Rp30.000" },
-            { type: "Super Besar", cost: "Rp45.000" },
-          ],
-        },
-      ] as Service[],
-      extraFullServices: [
-        {
-          name: "Satuan",
-          prices: [
-            { type: "Blazer / Batik", cost: "Rp35.000" },
-            { type: "Gamis / Tunik", cost: "Rp30.000" },
-            { type: "Boneka S", cost: "Rp30.000" },
-            { type: "Bantal", cost: "Rp25.000" },
-          ],
-        },
-        {
           name: "Setrika Saja/kg",
           prices: [
             { type: "1 Hari", cost: "Rp6.500" },
             { type: "2 Hari", cost: "Rp4.500" },
           ],
         },
+        // {
+        //   name: "Bed Cover",
+        //   prices: [
+        //     { type: "Ukuran Kecil", cost: "Rp20.000" },
+        //     { type: "Ukuran Sedang", cost: "Rp25.000" },
+        //     { type: "Ukuran Besar", cost: "Rp30.000" },
+        //     { type: "Super Besar", cost: "Rp45.000" },
+        //   ],
+        // },
+      ] as Service[],
+      extraFullServices: [
+        // {
+        //   name: "Satuan",
+        //   prices: [
+        //     { type: "Blazer / Batik", cost: "Rp35.000" },
+        //     { type: "Gamis / Tunik", cost: "Rp30.000" },
+        //     { type: "Boneka S", cost: "Rp30.000" },
+        //     { type: "Bantal", cost: "Rp25.000" },
+        //   ],
+        // },
+        // {
+        //   name: "Setrika Saja/kg",
+        //   prices: [
+        //     { type: "1 Hari", cost: "Rp6.500" },
+        //     { type: "2 Hari", cost: "Rp4.500" },
+        //   ],
+        // },
       ] as Service[],
       selfServices: [
         {

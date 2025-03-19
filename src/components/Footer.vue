@@ -16,7 +16,7 @@
           >
         </div>
         <p class="mt-4 text-gray-800">
-          Laundry Express Antar-Jemput Self Service, Kiloan dan Satuan.
+          Laundry Express Antar-Jemput Seluruh Yogyakarta
         </p>
         <!-- <div class="mt-12">
           <span class="font-vagrounded font-black text-gray-800">Follow Us</span>
