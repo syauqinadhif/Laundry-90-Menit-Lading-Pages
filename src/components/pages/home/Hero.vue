@@ -30,7 +30,7 @@
       </div>
       <div class="w-1/2 mx-8">
         <img alt="Gambar Ilustrasi Hero" :src="heroImg"
-          class="absolute bottom-0 right-2 sm:right-16 w-5/6 md:w-1/2 xl:w-2/5 max-h-[60%] md:max-h-[100%] pointer-events-none select-none" />
+          class="absolute bottom-0 right-2 sm:right-16 md:w-1/2 xl:w-2/5 max-h-[50%] md:max-h-[100%] pointer-events-none select-none" />
       </div>
     </div>
   </div>

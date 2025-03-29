@@ -29,7 +29,7 @@
             :src="reason.img"
             :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
             data-aos-duration="1000"
-            class="pointer-events-none select-none h-80 w-100 rounded-2xl"
+            class="pointer-events-none select-none h-full md:h-80 md:w-100 rounded-2xl"
             :class="index % 2 === 0 ? '' : 'order-1 sm:order-2'"
           />
           <div
