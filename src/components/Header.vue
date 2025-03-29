@@ -30,12 +30,19 @@
           </ul>
         </nav>
       </div>
-      <a
+      <!-- <a
         href="https://wa.me/+6282325643594"
         class="hidden lg:block relative z-10 px-8 py-2 bg-primaryblue font-medium text-white text-sm rounded-3xl"
       >
         Hubungi Kami
-      </a>
+      </a> -->
+      <a
+  href="https://wa.me/+6282264206100?text=Halo,%20saya%20tertarik%20mengetahui%20lebih%20lanjut%20layanan%20One%20Click%20Laundry.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
+  class="hidden lg:block relative z-10 px-8 py-2 bg-primaryblue font-medium text-white text-sm rounded-3xl"
+>
+  Hubungi Kami
+</a>
+
       <!-- Mobile Nav Button -->
       <div class="lg:hidden relative z-10">
         <button
@@ -100,14 +107,23 @@
             </a>
           </li>
           <li>
-            <a
+            <!-- <a
               @click.stop="closeMobileNav"
               href="https://wa.me/+6282325643594"
               target="_blank"
               class="block w-full p-2 font-medium text-darkgunmetal bg-primaryblue text-white text-sm rounded-lg"
             >
               Hubungi Kami
-            </a>
+            </a> -->
+            <a
+  @click.stop="closeMobileNav"
+  href="https://wa.me/+6282264206100?text=Halo,%20saya%20tertarik%20mengetahui%20lebih%20lanjut%20layanan%20One%20Click%20Laundry.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
+  target="_blank"
+  class="block w-full p-2 font-medium text-darkgunmetal bg-primaryblue text-white text-sm rounded-lg"
+>
+  Hubungi Kami
+</a>
+
           </li>
         </ul>
       </nav>

@@ -59,7 +59,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   data() {
     return {
-      nomorWA: "+6282325643594", // Nomor WhatsApp tujuan (tanpa spasi dan pakai kode negara)
+      nomorWA: "+6282264206100", // Nomor WhatsApp tujuan (tanpa spasi dan pakai kode negara)
       paketLaundry: [
         {
           nama: "Laundry Reguler Delivery",

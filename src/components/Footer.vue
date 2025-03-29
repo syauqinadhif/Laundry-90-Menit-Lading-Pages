@@ -65,11 +65,13 @@
         <ul class="space-y-3 text-gray-800">
           <li class="flex items-center space-x-2">
             <i class="fas fa-phone-alt text-primaryblue"></i>
-            <span>082325643594</span>
+            <!-- <span>082325643594</span> -->
+            <span>082264206100</span>
           </li>
           <li class="flex items-center space-x-2">
             <i class="fas fa-envelope text-primaryblue"></i>
-            <span>one1.click.laundry@gmail.com</span>
+            <!-- <span>one1.click.laundry@gmail.com</span> -->
+            <span>admin@oneclicklaundry.id</span>
           </li>
           <li class="flex space-x-2">
             <i class="mt-1 fas fa-map-marker-alt text-primaryblue ml-1"></i>

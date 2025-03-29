@@ -36,7 +36,7 @@
       </div>
       <a
         class="flex items-center p-2 bg-gray-100 rounded-lg mt-2 mb-2 mx-2"
-        href="https://wa.me/+6282325643594"
+        href="https://wa.me/+6282264206100?text=Halo,%20saya%20tertarik%20mengetahui%20lebih%20lanjut%20layanan%20One%20Click%20Laundry.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
       >
         <button class="mx-2 text-green-500">
           <img src="@/assets/images/whatsapp-icon.png" alt="WhatsApp" class="w-12 h-12" />

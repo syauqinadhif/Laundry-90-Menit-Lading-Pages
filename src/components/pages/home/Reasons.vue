@@ -61,11 +61,11 @@
 </template>
 
 <script lang="ts">
-import reason1Img from "@/assets/images/Mesin cuci canggih dan modern.jpg";
-import reason2Img from "@/assets/images/Muat lebih  banyak.jpeg";
-import reason3Img from "@/assets/images/Tidak mencampur pakaian.jpeg";
-import reason4Img from "@/assets/images/No Drama.jpeg";
-import reason5Img from "@/assets/images/Setrika anti gosong.jpg";
+import reason1Img from "@/assets/images/mesincuci-mbak_1.jpeg";
+// import reason2Img from "@/assets/images/Muat lebih  banyak.jpeg";
+import reason3Img from "@/assets/images/campur-mbak.jpeg";
+import reason4Img from "@/assets/images/drama-mbak.jpeg";
+import reason5Img from "@/assets/images/setrika-mbak_1.jpeg";
 
 export default {
   name: "ReasonsSection",

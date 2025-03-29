@@ -8,7 +8,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), vueJsx(), VueDevTools()],
-  assetsInclude: ['**/*.mp4', '**/*.mkv'],
+  assetsInclude: ['**/*.mp4', '**/*.mkv', '**/*.svg', '**/*.JPG'],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

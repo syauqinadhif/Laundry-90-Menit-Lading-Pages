@@ -133,9 +133,9 @@ export default defineComponent({
 </style> -->
 <template>
   <div
-    class="max-w-screen-xl flex flex-col lg:flex-row max-w-7xl mx-auto pt-40 pb-40 px-6 space-y-8 lg:space-y-0 lg:space-x-8 font-vagrounded text-center lg:text-left">
+    class="max-w-screen-xl flex flex-col lg:flex-row max-w-7xl mx-auto px-6 space-y-8 lg:space-y-0 lg:space-x-8 font-vagrounded text-center lg:text-left">
     <!-- Left Side Text -->
-    <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-4">
+    <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-4 pt-40">
       <h2 class="text-base font-vagrounded tracking-wider text-primaryblue uppercase mb-2">
         ONE CLICK LAUNDRY
       </h2>
@@ -150,13 +150,13 @@ export default defineComponent({
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
           <img src="@/assets/images/email-2.png" alt="Email" class="w-6 h-6 text-orange-500 mr-3" />
           <a class="text-sm break-all">
-            one1.click.laundry@gmail.com
+            admin@oneclicklaundry.id
           </a>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
           <img src="@/assets/images/phone-2.png" alt="Phone" class="w-6 h-6 text-orange-500 mr-3" />
           <a class="text-sm">
-            082325643594
+            082264206100
           </a>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start">
@@ -166,6 +166,11 @@ export default defineComponent({
           </span>
         </div>
       </div>
+    </div>
+
+    <!-- Right Side Image -->
+    <div class="w-full lg:w-1/2 flex items-center justify-center px-4">
+      <img src="@/assets/images/hero-baru.png" alt="Laundry Image" class="rounded-2xl w-full h-auto object-cover"/>
     </div>
   </div>
 </template>
@@ -181,3 +186,4 @@ export default defineComponent({});
   font-family: 'Product Sans', sans-serif;
 }
 </style>
+

@@ -1,197 +1,105 @@
 <template>
   <div class="max-w-screen-xl mx-auto py-28 md:py-32 p-4">
-    <h1
-      class="text-center text-2xl lg:text-4xl mb-2 font-vagrounded font-black text-gray-800"
-    >
+    <h1 class="text-center text-2xl lg:text-4xl mb-2 font-vagrounded font-black text-gray-800">
       LAYANAN KAMI
     </h1>
     <div class="w-24 lg:w-48 h-1 bg-primaryblue mt-4 mb-6 lg:mb-12 mx-auto"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div
-        v-for="(service, index) in services"
-        :key="index"
-        class="relative bg-softgray rounded-2xl shadow-lg p-6"
-      >
-        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
-          {{ service.name }}
-        </h2>
-        <ul class="mb-16">
-          <li
-            v-for="(price, subIndex) in service.prices"
-            :key="subIndex"
-            class="flex justify-between items-center mb-2"
+      
+      <!-- Cuci Setrika -->
+      <div class="bg-softgray rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
+        <div>
+          <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">Cuci Setrika/kg</h2>
+          <ul class="mb-4">
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-setrika.svg" alt="Cuci Setrika" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">1 Hari</span>
+              <span class="font-productsans">Rp12.000</span>
+            </li>
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-setrika.svg" alt="Cuci Setrika" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">12 Jam</span>
+              <span class="font-productsans">Rp14.000</span>
+            </li>
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-setrika.svg" alt="Cuci Setrika" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">6 Jam</span>
+              <span class="font-productsans">Rp20.000</span>
+            </li>
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-setrika.svg" alt="Cuci Setrika" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">3 Jam</span>
+              <span class="font-productsans">Rp25.000</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4 flex justify-end">
+          <a 
+            href="https://wa.me/6282264206100?text=Halo,%20saya%20tertarik%20dengan%20paket%20Laundry%20Cuci%20Setrika.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
+            target="_blank"
+            class="bg-primaryblue text-white font-productsans py-2 px-6 rounded-full hover:bg-orange-600 transition"
           >
-            <span class="flex items-center font-productsans">
-              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
-              {{ price.type }}
-            </span>
-            <span class="font-productsans">{{ price.cost }}</span>
-          </li>
-        </ul>
-        <a
-          href="https://wa.me/+6282325643594"
-          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl"
-        >
-          Order
-        </a>
+            Order
+          </a>
+        </div>
       </div>
+
+      <!-- Cuci Lipat -->
+      <div class="bg-softgray rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
+        <div>
+          <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">Cuci Lipat/kg</h2>
+          <ul class="mb-4">
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-lipat.svg" alt="Cuci Lipat" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">6 Jam</span>
+              <span class="font-productsans">Rp14.000</span>
+            </li>
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/cuci-lipat.svg" alt="Cuci Lipat" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">3 Jam</span>
+              <span class="font-productsans">Rp20.000</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4 flex justify-end">
+          <a 
+            href="https://wa.me/6282264206100?text=Halo,%20saya%20tertarik%20dengan%20paket%20Laundry%20Cuci%20Lipat.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
+            target="_blank"
+            class="bg-primaryblue text-white font-productsans py-2 px-6 rounded-full hover:bg-orange-600 transition"
+          >
+            Order
+          </a>
+        </div>
+      </div>
+
+      <!-- Setrika Saja -->
+      <div class="bg-softgray rounded-2xl shadow-lg p-6 flex flex-col justify-between h-full">
+        <div>
+          <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">Setrika Saja/kg</h2>
+          <ul class="mb-4">
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/setrika.svg" alt="Setrika Saja" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">1 Hari</span>
+              <span class="font-productsans">Rp6.500</span>
+            </li>
+            <li class="flex items-center mb-2">
+              <img src="@/assets/images/setrika.svg" alt="Setrika Saja" class="w-6 h-6 mr-2" />
+              <span class="font-productsans flex-grow">2 Hari</span>
+              <span class="font-productsans">Rp4.500</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4 flex justify-end">
+          <a 
+            href="https://wa.me/6282264206100?text=Halo,%20saya%20tertarik%20dengan%20paket%20Laundry%20Setrika%20Saja.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
+            target="_blank"
+            class="bg-primaryblue text-white font-productsans py-2 px-6 rounded-full hover:bg-orange-600 transition"
+          >
+            Order
+          </a>
+        </div>
+      </div>
+
     </div>
-    <div class="flex flex-col sm:flex-row justify-center gap-6 mt-6">
-      <div
-        v-for="(service, index) in extraFullServices"
-        :key="index"
-        class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full max-w-sm"
-      >
-        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
-          {{ service.name }}
-        </h2>
-        <ul class="mb-16">
-          <li
-            v-for="(price, subIndex) in service.prices"
-            :key="subIndex"
-            class="flex justify-between items-center mb-2"
-          >
-            <span class="flex items-center">
-              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
-              {{ price.type }}
-            </span>
-            <span>{{ price.cost }}</span>
-          </li>
-        </ul>
-        <a
-          href="https://wa.me/+6282325643594"
-          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
-        >
-          Order
-        </a>
-      </div>
-    </div>
-    <!-- <h1
-      class="text-center text-2xl lg:text-4xl font-bold mt-16 mb-2 font-vagrounded text-gray-800"
-    >
-      SELF SERVICES
-    </h1>
-    <div class="w-24 lg:w-44 h-1 bg-yellow-400 mt-4 mb-6 lg:mb-12 mx-auto"></div>
-    <div class="flex flex-col sm:flex-row justify-center gap-6 mt-6">
-      <div
-        v-for="(service, index) in selfServices"
-        :key="index"
-        class="relative bg-softgray rounded-2xl shadow-lg p-6 w-full h-fit max-w-sm"
-      >
-        <h2 class="text-xl font-vagrounded font-black text-primaryblue mb-4">
-          {{ service.name }}
-        </h2>
-        <ul class="mb-16">
-          <li
-            v-for="(price, subIndex) in service.prices"
-            :key="subIndex"
-            class="flex justify-between items-center mb-2"
-          >
-            <span class="flex items-center">
-              <span class="w-2.5 h-2.5 bg-primaryblue rounded-full mr-2"></span>
-              {{ price.type }}
-            </span>
-            <span>{{ price.cost }}</span>
-          </li>
-        </ul>
-        <button
-          class="absolute bottom-4 right-4 bg-primaryblue text-white py-2 px-4 rounded-3xl hover:bg-orange-600"
-        >
-          Order
-        </button>
-      </div>
-    </div> -->
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from "vue";
-
-interface Price {
-  type: string;
-  cost: string;
-}
-
-interface Service {
-  name: string;
-  prices: Price[];
-}
-
-export default defineComponent({
-  name: "FullService",
-  data() {
-    return {
-      services: [
-        {
-          name: "Cuci Setrika/kg",
-          prices: [
-            { type: "1 Hari", cost: "Rp12.000" },
-            { type: "12 Jam", cost: "Rp14.000" },
-            { type: "6 Jam", cost: "Rp20.000" },
-            { type: "3 Jam", cost: "Rp25.000" },
-          ],
-        },
-        {
-          name: "Cuci Lipat/kg",
-          prices: [
-            { type: "6 Jam", cost: "Rp14.000" },
-            { type: "3 Jam", cost: "Rp20.000" },
-          ],
-        },
-        {
-          name: "Setrika Saja/kg",
-          prices: [
-            { type: "1 Hari", cost: "Rp6.500" },
-            { type: "2 Hari", cost: "Rp4.500" },
-          ],
-        },
-        // {
-        //   name: "Bed Cover",
-        //   prices: [
-        //     { type: "Ukuran Kecil", cost: "Rp20.000" },
-        //     { type: "Ukuran Sedang", cost: "Rp25.000" },
-        //     { type: "Ukuran Besar", cost: "Rp30.000" },
-        //     { type: "Super Besar", cost: "Rp45.000" },
-        //   ],
-        // },
-      ] as Service[],
-      extraFullServices: [
-        // {
-        //   name: "Satuan",
-        //   prices: [
-        //     { type: "Blazer / Batik", cost: "Rp35.000" },
-        //     { type: "Gamis / Tunik", cost: "Rp30.000" },
-        //     { type: "Boneka S", cost: "Rp30.000" },
-        //     { type: "Bantal", cost: "Rp25.000" },
-        //   ],
-        // },
-        // {
-        //   name: "Setrika Saja/kg",
-        //   prices: [
-        //     { type: "1 Hari", cost: "Rp6.500" },
-        //     { type: "2 Hari", cost: "Rp4.500" },
-        //   ],
-        // },
-      ] as Service[],
-      selfServices: [
-        {
-          name: "Outlet Gito-Gati, Haryadi, Damai",
-          prices: [
-            { type: "Cuci Saja", cost: "Rp12.000" },
-            { type: "Keringkan", cost: "Rp15.000" },
-            { type: "Cuci Kering", cost: "Rp27.000" },
-          ],
-        },
-        {
-          name: "Outlet Purwomartani",
-          prices: [
-            { type: "Cuci Saja", cost: "Rp10.000" },
-            { type: "Keringkan", cost: "Rp15.000" },
-            { type: "Cuci Kering", cost: "Rp25.000" },
-          ],
-        },
-      ] as Service[],
-    };
-  },
-});
-</script>
