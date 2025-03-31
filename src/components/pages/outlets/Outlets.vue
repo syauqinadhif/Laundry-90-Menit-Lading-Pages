@@ -162,7 +162,7 @@ export default defineComponent({
         <div class="flex flex-col sm:flex-row items-center sm:items-start">
           <img src="@/assets/images/location-2.png" alt="Location" class="w-6 h-6 text-orange-500 mr-3" />
           <span class="text-sm">
-            Jl. Gito Gati ruko No.1, Penen, Donoharjo, Ngaglik, Sleman, 55581
+            Jl. Damai No.5, Tambakan, Sinduharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
           </span>
         </div>
       </div>

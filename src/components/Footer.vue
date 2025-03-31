@@ -76,8 +76,7 @@
           <li class="flex space-x-2">
             <i class="mt-1 fas fa-map-marker-alt text-primaryblue ml-1"></i>
             <span>
-              Jl. Gito Gati ruko No.1, Penen, Donoharjo, Kec. Ngaglik, Kabupaten Sleman,
-              Daerah Istimewa Yogyakarta 55581
+              Jl. Damai No.5, Tambakan, Sinduharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581
             </span>
           </li>
         </ul>
