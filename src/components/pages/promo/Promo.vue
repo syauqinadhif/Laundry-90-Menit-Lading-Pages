@@ -11,6 +11,45 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-[80%]">
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h2 class="text-xl font-semibold text-primaryblue mb-2">
+            Promo Hemat Harian (1 Hari)
+          </h2>
+          <p class="text-gray-600 mb-2">Cuci 3kg hanya Rp30.000</p>
+          <p class="text-gray-600 mb-4">Cuci 5kg hanya Rp45.000</p>
+          <p class="text-gray-500 text-sm italic">Berlaku untuk layanan 1 hari</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
+            Promo Hemat Harian (12 Jam)
+          </h2>
+          <p class="text-gray-600 mb-2">Cuci 3kg hanya Rp40.000</p>
+          <p class="text-gray-600 mb-4">Cuci 5kg hanya Rp55.000</p>
+          <p class="text-gray-500 text-sm italic">Berlaku untuk layanan ekspres 12 jam</p>
+        </div>
+      </div>
+
+      <div class="mx-auto text-center mt-12 font-productsans">
+        <h2>
+          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Click Laundry
+          Menit.
+        </h2>
+      </div>
+    </div>
+  </div>
+</template>
+
+<!-- <template>
+  <div class="bg-gray-100 pt-28 md:pt-32 px-4 sm:px-6 lg:px-8 pb-16">
+    <div class="max-w-7xl mx-auto">
+      <h1
+        class="text-2xl lg:text-4xl font-vagrounded font-black text-gray-800 text-center mb-4"
+      >
+        PROMO KAMI
+      </h1>
+      <div class="mx-auto w-24 lg:w-44 h-1 bg-primaryblue mb-12"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-[80%]">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Diskon Pengguna Aplikasi
           </h2>
           <p class="text-gray-600 mb-4">User yang baru register pertama kali di aplikasi akan mendapatkan diskon 10% (1 user 1 kali)</p>
@@ -22,7 +61,7 @@
           </h2>
           <p class="text-gray-600 mb-4">Dapatkan diskon hingga 15%, setiap pelanggan dapat mengklaim diskon hingga 3 kali</p>
           <p class="text-gray-600 mb-4">Sampai dengan tanggal 5 April</p>
-        </div>
+        </div> -->
         <!-- <div class="relative bg-white p-6 rounded-lg shadow-lg">
           <h2 class="text-xl font-semibold text-primaryblue mb-2">
             Promo Lain Cabang Haryadi
@@ -83,8 +122,8 @@
             Info Lebih Lanjut
           </a>
         </div> -->
-      </div>
-      <div class="mx-auto text-center mt-12 font-productsans">
+      <!-- </div> -->
+      <!-- <div class="mx-auto text-center mt-12 font-productsans">
         <h2>
           *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Click Laundry
           Menit.
@@ -92,7 +131,7 @@
       </div>
     </div>
   </div>
-</template>
+</template> -->
 
 <script setup></script>
 
