@@ -12,7 +12,7 @@
             class="h-10 w-10"
           /> -->
           <span class="text-2xl font-vagrounded font-black text-gray-800"
-            >One Tap Laundry</span
+            >One Click Laundry</span
           >
         </div>
         <p class="mt-4 text-gray-800">
@@ -71,7 +71,7 @@
           <li class="flex items-center space-x-2">
             <i class="fas fa-envelope text-primaryblue"></i>
             <!-- <span>one1.click.laundry@gmail.com</span> -->
-            <span>admin@onetaplaundry.id</span>
+            <span>admin@oneclicklaundry.id</span>
           </li>
           <li class="flex space-x-2">
             <i class="mt-1 fas fa-map-marker-alt text-primaryblue ml-1"></i>
@@ -83,7 +83,7 @@
       </div>
     </div>
     <div class="mt-8 text-center text-gray-800">
-      <p>Copyright © 2025 One Tap Laundry. All rights reserved</p>
+      <p>Copyright © 2025 One Click Laundry. All rights reserved</p>
     </div>
   </div>
 </template>

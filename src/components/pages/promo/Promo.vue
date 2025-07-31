@@ -30,7 +30,7 @@
 
       <div class="mx-auto text-center mt-12 font-productsans">
         <h2>
-          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Tap Laundry
+          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Click Laundry
           Menit.
         </h2>
       </div>
@@ -126,7 +126,7 @@
       <!-- </div> -->
       <!-- <div class="mx-auto text-center mt-12 font-productsans">
         <h2>
-          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Tap Laundry
+          *Informasi Terkait Promo Khusus Tiap Cabang Silahkan Hubungi CS One Click Laundry
           Menit.
         </h2>
       </div>

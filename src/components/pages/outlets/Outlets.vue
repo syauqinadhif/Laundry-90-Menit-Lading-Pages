@@ -137,7 +137,7 @@ export default defineComponent({
     <!-- Left Side Text -->
     <div class="w-full lg:w-1/2 mb-6 lg:mb-0 px-4 pt-40">
       <h2 class="text-base font-vagrounded tracking-wider text-primaryblue uppercase mb-2">
-        ONE TAP LAUNDRY
+        ONE CLICK LAUNDRY
       </h2>
       <h1 class="text-3xl md:text-4xl font-bold text-black leading-tight mb-4">
         Laundry Express Antar-Jemput Seluruh Yogyakarta
@@ -150,7 +150,7 @@ export default defineComponent({
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
           <img src="@/assets/images/email-2.png" alt="Email" class="w-6 h-6 text-orange-500 mr-3" />
           <a class="text-sm break-all">
-            admin@onetaplaundry.id
+            admin@oneclicklaundry.id
           </a>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
