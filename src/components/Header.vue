@@ -5,7 +5,7 @@
       :class="{ 'backdrop-blur-sm bg-white/75': scrollY > 10 }"
     >
       <a href="/" class="relative z-10">
-        <img alt="Logo One Click Laundry" :src="logo" class="w-20 select-none" />
+        <img alt="Logo One Tap Laundry" :src="logo" class="w-20 select-none" />
       </a>
       <div class="hidden lg:flex relative items-center justify-between">
         <nav class="w-fit px-6 mx-auto">

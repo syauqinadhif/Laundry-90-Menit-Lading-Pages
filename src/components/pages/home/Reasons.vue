@@ -5,13 +5,13 @@
         class="w-5/6 md:w-full font-black px-6 text-2xl sm:text-5xl text-left md:text-center leading-tight"
       >
         <span class="text-gunmetal font-vagrounded">Mengapa</span>
-        <span class="text-primaryblue font-vagrounded"> One Click Laundry</span
+        <span class="text-primaryblue font-vagrounded"> One Tap Laundry</span
         ><span class="text-gunmetal font-vagrounded"> ?</span>
       </h3>
       <p
         class="font-productsans mt-2 sm:mt-6 px-6 sm:px-32 md:px-44 lg:px-64 text-left sm:text-center text-gunmetal text-sm sm:text-lg"
       >
-        Lima Alasan Mengapa Anda Harus Memilih One Click Laundry Untuk Melayani Segala
+        Lima Alasan Mengapa Anda Harus Memilih One Tap Laundry Untuk Melayani Segala
         Kebutuhan Laundry Anda.
       </p>
       <div class="w-full mx-auto mt-8 md:mt-16 px-6 space-y-8">
@@ -76,13 +76,13 @@ export default {
           img: reason1Img,
           title: "Menggunakan Mesin Cuci Modern dan Canggih",
           description:
-            "Di One Click Laundry cucian kamu bakal jadi lebih bersih dan higienis",
+            "Di One Tap Laundry cucian kamu bakal jadi lebih bersih dan higienis",
         },
         // {
         //   img: reason2Img,
         //   title: "Muat Lebih Banyak",
         //   description:
-        //     "Mesin cuci dan pengering di One Click Laundry muat lebih banyak hingga 10 kg.",
+        //     "Mesin cuci dan pengering di One Tap Laundry muat lebih banyak hingga 10 kg.",
         // },
         {
           img: reason3Img,
@@ -100,7 +100,7 @@ export default {
           img: reason5Img,
           title: "Jaminan Setrika Anti Gosong",
           description:
-            "Seluruh outlet One Click Laundry sudah menggunakan setrika uap, jadi cucian kamu dijamin anti gosong dan berkerut",
+            "Seluruh outlet One Tap Laundry sudah menggunakan setrika uap, jadi cucian kamu dijamin anti gosong dan berkerut",
         },
       ],
     };

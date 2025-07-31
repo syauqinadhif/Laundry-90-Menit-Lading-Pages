@@ -15,10 +15,10 @@
         Profile
       </p>
       <h2 class="font-vagrounded font-black text-2xl md:text-4xl text-richblack">
-        One Click Laundry
+        One Tap Laundry
       </h2>
       <p class="mt-2 md:mt-4 text-sm md:text-lg text-gunmetal font-productsans">
-        One Click Laundry merupakan layanan laundry online di Yogyakarta yang memudahkan liburan Anda. Kami menyediakan
+        One Tap Laundry merupakan layanan laundry online di Yogyakarta yang memudahkan liburan Anda. Kami menyediakan
         layanan kiloan dan satuan dengan pilihan express 12 jam, 6 jam, dan 3 jam agar pakaian Anda bersih lebih cepat.
         Layanan antar-jemput kami mencakup seluruh wilayah Yogyakarta dengan biaya ongkir terjangkau. Cukup klik, kami
         jemput dan antar kembali pakaian anda dalam keadaan bersih.

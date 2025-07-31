@@ -12,7 +12,7 @@
             class="h-10 w-10"
           /> -->
           <span class="text-2xl font-vagrounded font-black text-gray-800"
-            >One Click Laundry</span
+            >One Tap Laundry</span
           >
         </div>
         <p class="mt-4 text-gray-800">
@@ -83,7 +83,7 @@
       </div>
     </div>
     <div class="mt-8 text-center text-gray-800">
-      <p>Copyright © 2025 One Click Laundry. All rights reserved</p>
+      <p>Copyright © 2025 One Tap Laundry. All rights reserved</p>
     </div>
   </div>
 </template>
