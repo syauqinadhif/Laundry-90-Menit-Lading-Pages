@@ -71,7 +71,7 @@
           <li class="flex items-center space-x-2">
             <i class="fas fa-envelope text-primaryblue"></i>
             <!-- <span>one1.click.laundry@gmail.com</span> -->
-            <span>admin@oneclicklaundry.id</span>
+            <span>admin@onetaplaundry.id</span>
           </li>
           <li class="flex space-x-2">
             <i class="mt-1 fas fa-map-marker-alt text-primaryblue ml-1"></i>

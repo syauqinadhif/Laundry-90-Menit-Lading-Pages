@@ -17,7 +17,7 @@
           liburan anda dan dalam waktu singkat baju siap kembali. Praktis, cepat, dan tanpa repot!
         </p>
         <p class="md:hidden mt-8 mb-8 text-sm sm:text-lg text-gray-800 font-light">
-          *Coming Soon! OneClickLaundry App will be available on Play Store and App Store.
+          *Coming Soon! OneTapLaundry App will be available on Play Store and App Store.
         </p>
         <a 
         href="https://wa.me/+6282264206100?text=Halo,%20saya%20tertarik%20mengetahui%20lebih%20lanjut%20layanan%20One%20Click%20Laundry.%20Bisa%20saya%20dapatkan%20informasi%20lebih%20lanjut?"
@@ -25,7 +25,7 @@
           Laundry Sekarang!
         </a>
         <p class="hidden md:block mt-32 text-sm sm:text-lg text-gray-800 font-light">
-          *Coming Soon! OneClickLaundry App will be available on Play Store and App Store.
+          *Coming Soon! OneTapLaundry App will be available on Play Store and App Store.
         </p>
       </div>
       <div class="w-1/2 mx-8">

@@ -150,7 +150,7 @@ export default defineComponent({
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">
           <img src="@/assets/images/email-2.png" alt="Email" class="w-6 h-6 text-orange-500 mr-3" />
           <a class="text-sm break-all">
-            admin@oneclicklaundry.id
+            admin@onetaplaundry.id
           </a>
         </div>
         <div class="flex flex-col sm:flex-row items-center sm:items-start mb-4">

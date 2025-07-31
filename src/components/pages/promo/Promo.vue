@@ -8,24 +8,25 @@
       </h1>
       <div class="mx-auto w-24 lg:w-44 h-1 bg-primaryblue mb-12"></div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-[80%]">
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-primaryblue mb-2">
-            Promo Hemat Harian (1 Hari)
-          </h2>
-          <p class="text-gray-600 mb-2">Cuci 3kg hanya Rp30.000</p>
-          <p class="text-gray-600 mb-4">Cuci 5kg hanya Rp45.000</p>
-          <p class="text-gray-500 text-sm italic">Berlaku untuk layanan 1 hari</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-lg">
-          <h2 class="text-xl font-semibold text-primaryblue mb-2">
-            Promo Hemat Harian (12 Jam)
-          </h2>
-          <p class="text-gray-600 mb-2">Cuci 3kg hanya Rp40.000</p>
-          <p class="text-gray-600 mb-4">Cuci 5kg hanya Rp55.000</p>
-          <p class="text-gray-500 text-sm italic">Berlaku untuk layanan ekspres 12 jam</p>
-        </div>
-      </div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-[80%]">
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <h2 class="text-xl font-semibold text-primaryblue mb-2">
+      Promo Hemat Harian (1 Hari)
+    </h2>
+    <p class="text-gray-600 mb-2">Cuci<strong> 3kg</strong> hanya <strong>Rp30.000</strong></p>
+    <p class="text-gray-600 mb-4">Cuci<strong> 5kg</strong> hanya <strong>Rp45.000</strong></p>
+    <p class="text-gray-500 text-sm italic">Berlaku untuk layanan 1 hari</p>
+  </div>
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <h2 class="text-xl font-semibold text-primaryblue mb-2">
+      Promo Hemat Harian (12 Jam)
+    </h2>
+    <p class="text-gray-600 mb-2">Cuci<strong> 3kg</strong> hanya <strong>Rp40.000</strong></p>
+    <p class="text-gray-600 mb-4">Cuci<strong> 5kg</strong> hanya <strong>Rp55.000</strong></p>
+    <p class="text-gray-500 text-sm italic">Berlaku untuk layanan ekspres 12 jam</p>
+  </div>
+</div>
+
 
       <div class="mx-auto text-center mt-12 font-productsans">
         <h2>

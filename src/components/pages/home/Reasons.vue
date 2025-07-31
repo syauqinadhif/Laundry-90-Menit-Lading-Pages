@@ -42,7 +42,7 @@
             <p class="text-primaryblue text-xl sm:text-3xl">
               <span class="font-vagrounded font-black">#</span>
               <!-- <span class="font-vagrounded font-black">{{ index + 1 }}</span> -->
-              <span class="font-vagrounded font-black">OneClick</span>
+              <span class="font-vagrounded font-black">OneTap</span>
               <span class="font-vagrounded font-light">Laundry</span>
             </p>
             <p
